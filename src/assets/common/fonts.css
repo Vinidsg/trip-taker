@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Font1';
+    src: url(/src/assets/fonts/NotoSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Font2';
+    src: url(/src/assets/fonts/NotoSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Font3';
+    src: url(/src/assets/fonts/NotoSans-Thin.ttf);
+}
