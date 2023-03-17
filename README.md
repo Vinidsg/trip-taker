@@ -19,3 +19,4 @@ O projeto consiste em apresentar o trabalho de uma equipe de guias turísticos a
 
 # Lista de Requisitos funcionais
 ![image](https://user-images.githubusercontent.com/61765755/225807313-97bb1380-95d6-4154-bfc0-7c7cdc14f146.png)
+
