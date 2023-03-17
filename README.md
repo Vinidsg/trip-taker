@@ -17,6 +17,14 @@ O projeto consiste em apresentar o trabalho de uma equipe de guias turísticos a
 - Routes/ Trips/ Dates - Terá mais detalhes do roteiro da viagem, local, e guia turístico;
 - About - Falará sobre a empresa, valores, missões e trabalhe conosco;
 
-# Lista de Requisitos funcionais
+## Lista de Requisitos funcionais
 ![image](https://user-images.githubusercontent.com/61765755/225807313-97bb1380-95d6-4154-bfc0-7c7cdc14f146.png)
 
+## MER
+![MER_-_Trip_Taker](https://user-images.githubusercontent.com/61765755/226067867-15392ef0-bd97-4a59-8af7-9abf2e77fe96.png)
+
+## ER
+![Diagrama_ER_com_entidades_coloridas_notacao_UML (3)_page-0001](https://user-images.githubusercontent.com/61765755/226067990-97b598a9-0644-4077-8fbf-bba758c82fee.jpg)
+
+## Telas no Figma
+![triptaker-figma](https://user-images.githubusercontent.com/61765755/226067694-ec3bc43f-41ba-4dbc-94a2-c9c2faa4ae2f.png)
