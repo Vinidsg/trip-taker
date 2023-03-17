@@ -8,4 +8,4 @@ Miguel Enrique Palacios Triana
 William Ribeiro Queiroz
 
 # Lista de Requisitos funcionais
-![Requisitos Funcionais] (https://github.com/Vinidsg/trip-taker/blob/main/docs/RequisitosFuncionais.png)
+![Requisitos Funcionais] (/Vinidsg/trip-taker/blob/main/docs/RequisitosFuncionais.png)
