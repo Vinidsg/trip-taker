@@ -8,4 +8,4 @@ Miguel Enrique Palacios Triana
 William Ribeiro Queiroz
 
 # Lista de Requisitos funcionais
-![Requisitos Funcionais] (/main/docs/RequisitosFuncionais.png)
+[Requisitos Funcionais] (/docs/RequisitosFuncionais.png)
