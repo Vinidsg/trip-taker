@@ -1,4 +1,4 @@
-# trip-taker
+# Trip-Taker
 Repositório destinado ao trabalho do Projeto Integrador III do SENAC. O grupo contém 5 integrantes: 
 
 Vinicius de Souza Garcia
@@ -8,4 +8,4 @@ Miguel Enrique Palacios Triana
 William Ribeiro Queiroz
 
 # Lista de Requisitos funcionais
-![Requisitos Funcionais] (/Vinidsg/trip-taker/blob/main/docs/RequisitosFuncionais.png)
+![Requisitos Funcionais] (/main/docs/RequisitosFuncionais.png)
