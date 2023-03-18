@@ -22,8 +22,6 @@ O projeto consiste em apresentar o trabalho de uma equipe de guias turísticos a
 
 ## MER
 ![MER_-_Trip_Taker](https://user-images.githubusercontent.com/61765755/226067867-15392ef0-bd97-4a59-8af7-9abf2e77fe96.png)
-
-## ER
 ![Diagrama_ER_com_entidades_coloridas_notacao_UML (3)_page-0001](https://user-images.githubusercontent.com/61765755/226067990-97b598a9-0644-4077-8fbf-bba758c82fee.jpg)
 
 ## Telas no Figma
