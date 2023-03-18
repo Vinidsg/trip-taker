@@ -28,4 +28,4 @@ https://www.figma.com/file/9zoX2L7ollsxTrmG71CTmX/Trip-Taker?node-id=0-1&t=egTQL
 ![Diagrama_ER_com_entidades_coloridas_notacao_UML (3)_page-0001](https://user-images.githubusercontent.com/61765755/226067990-97b598a9-0644-4077-8fbf-bba758c82fee.jpg)
 
 ## Telas no Figma
-![triptaker-figma](https://user-images.githubusercontent.com/61765755/226067694-ec3bc43f-41ba-4dbc-94a2-c9c2faa4ae2f.png)
+![triptaker-figma](/docs/triptaker-figma.png)
