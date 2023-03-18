@@ -17,6 +17,9 @@ O projeto consiste em apresentar o trabalho de uma equipe de guias turísticos a
 - Routes/ Trips/ Dates - Terá mais detalhes do roteiro da viagem, local, e guia turístico;
 - About - Falará sobre a empresa, valores, missões e trabalhe conosco;
 
+## Link das telas no Figma
+https://www.figma.com/file/9zoX2L7ollsxTrmG71CTmX/Trip-Taker?node-id=0-1&t=egTQL5oPcKoZywRB-0
+
 ## Lista de Requisitos funcionais
 ![image](https://user-images.githubusercontent.com/61765755/225807313-97bb1380-95d6-4154-bfc0-7c7cdc14f146.png)
 
