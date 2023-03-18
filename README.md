@@ -21,11 +21,11 @@ O projeto consiste em apresentar o trabalho de uma equipe de guias turísticos a
 https://www.figma.com/file/9zoX2L7ollsxTrmG71CTmX/Trip-Taker?node-id=0-1&t=egTQL5oPcKoZywRB-0
 
 ## Lista de Requisitos funcionais
-![image](https://user-images.githubusercontent.com/61765755/225807313-97bb1380-95d6-4154-bfc0-7c7cdc14f146.png)
+![image](/docs/image.png)
 
 ## MER
-![MER_-_Trip_Taker](https://user-images.githubusercontent.com/61765755/226067867-15392ef0-bd97-4a59-8af7-9abf2e77fe96.png)
-![Diagrama_ER_com_entidades_coloridas_notacao_UML (3)_page-0001](https://user-images.githubusercontent.com/61765755/226067990-97b598a9-0644-4077-8fbf-bba758c82fee.jpg)
+![MER_-_Trip_Taker](/docs/MER_-_Trip_Taker.png)
+![Diagrama_ER_com_entidades_coloridas_notacao_UML (3)_page-0001](/docs/Diagrama_ER_com_entidades_coloridas_notacao_UML (3)_page-0001.jpg)
 
 ## Telas no Figma
 ![triptaker-figma](/docs/triptaker-figma.png)
