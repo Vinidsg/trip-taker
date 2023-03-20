@@ -25,7 +25,7 @@ https://www.figma.com/file/9zoX2L7ollsxTrmG71CTmX/Trip-Taker?node-id=0-1&t=egTQL
 
 ## MER
 ![MER_-_Trip_Taker](/docs/MER_-_Trip_Taker.png)
-![Diagrama_ER_com_entidades_coloridas_notacao_UML (3)_page-0001](/docs/Diagrama_ER_com_entidades_coloridas_notacao_UML (3)_page-0001.jpg)
+![Diagrama_ER_com_entidades_coloridas_notacao_UML (3)_page-0001](/docs/Diagrama_ER_com_entidades_coloridas_notacao_UML (3)_page-0001.png)
 
 
 
