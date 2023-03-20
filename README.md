@@ -21,7 +21,7 @@ O projeto consiste em apresentar o trabalho de uma equipe de guias turísticos a
 https://www.figma.com/file/9zoX2L7ollsxTrmG71CTmX/Trip-Taker?node-id=0-1&t=egTQL5oPcKoZywRB-0
 
 ## Lista de Requisitos funcionais
-![image](https://user-images.githubusercontent.com/61765755/225807313-97bb1380-95d6-4154-bfc0-7c7cdc14f146.png)
+![image](/docs/RequisitosFuncionais.png)
 
 ## MER
 ![MER_-_Trip_Taker](/docs/MER_-_Trip_Taker.png)
