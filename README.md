@@ -18,7 +18,10 @@ O projeto consiste em apresentar o trabalho de uma equipe de guias turísticos a
 - About - Falará sobre a empresa, valores, missões e trabalhe conosco;
 
 ## Link das telas no Figma
-https://www.figma.com/file/9zoX2L7ollsxTrmG71CTmX/Trip-Taker?node-id=0-1&t=egTQL5oPcKoZywRB-0
+https://www.figma.com/file/nCeRxZy5cMWnc1175pPA8C/Trip-Taker?node-id=0-1&t=Bh9V8zU6nuqEGJii-0
+
+## Link do protótipo das telas no Figma
+https://www.figma.com/proto/nCeRxZy5cMWnc1175pPA8C/Trip-Taker?node-id=1-149&scaling=min-zoom&page-id=0%3A1
 
 ## Lista de Requisitos funcionais
 ![image](/docs/RequisitosFuncionais.png)
