@@ -1,0 +1,3 @@
+br\com\triptaker\servlet\CreateTripServlet.class
+br\com\triptaker\dao\TripTakerDAO.class
+br\com\triptaker\model\Trip.class
