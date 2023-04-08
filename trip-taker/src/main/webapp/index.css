@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #0D1E30;
+}
+
+div {
+    overflow: hidden;
+}
+
+.logo {
+    width: 300px;
+}
+
+.divHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    background-color: #0D1E30;
+    color: #fff;
+    padding: 100px 100px 50px 100px;
+
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.menu>a {
+    font: 18px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.menu2 {
+    font: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+    align-items: center;
+    position: relative;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+.buttonLogin {
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 70px;
+    background-color: #ffffff;
+    border: 0px;
+    color: 0D1E30;
+    width: 100px;
+    height: 35px;
+}
+
+.titlePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0D1E30;
+    color: #fff;
+}
+
+.titlePage>h1 {
+    text-align: center;
+    font: 45px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.formularioCER > div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #E6E6E6;
+    color: #000000;
+    padding: 30px 300px 50px 300px;
+}
+
+.formularioCER > div > label{
+    margin-top: 15px;
+}
+
+.formularioCER > div > input{
+    height: 35px;
+    width: 200px;
+    border: 0;
+    border-radius: 2px;
+}
+
+.laranja {
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 70px;
+    background-color: #D53620;
+    border: 0px;
+    color: ffffff;
+    width: 133px;
+    height: 40px;
+}
+
+.azul {
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 70px;
+    background-color: #0D1E30;
+    border: 0px;
+    color: #ffffff;
+    width: 133px;
+    height: 40px;
+}
+
+.desc {
+    height: 300px !important ;
+    width: 900px !important;
+    border: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    margin-top: 15px;
+}
+
+
+.footerr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+}
+
+.telefone {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.telefone>p {
+    color: #fff;
+    font: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+}
+
+.whatsapp {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    color: #fff;
+    font: 18px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.whatsapp>img {
+    width: 30px;
+}
+
+.fiquePorDentro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.fiquePorDentro>p {
+    font: 18px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.redesSociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.redesSociais>svg {
+    margin: 15px;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
