@@ -10,7 +10,17 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;500&display=swap" rel="stylesheet">
-        <title>Sobre</title>
+        <style>
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+            }
+            input[type=number] {
+            -moz-appearance: textfield;
+            }
+        </style>
+        <title>Criar/ Editar Rotas</title>
     </head>
 
     <header class="divHeader">
@@ -42,16 +52,16 @@
             <input type="text" name="guiaResponsavel" id="guiaResponsavel">
 
             <label>Valor Unitário</label>
-            <input type="number" name="vlrUnitario" id="vlrUnitario">
+            <input type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario">
 
             <label>Data Início</label>
-            <input type="text" name="dtInicio" id="dtInicio" required placeholder="DD/MM/AAAA"  mask="99/99/9999">
+            <input type="date" name="dtInicio" id="dtInicio" required placeholder="DD/MM/AAAA"  mask="99/99/9999">
 
             <label>Data Final</label>
-            <input type="text" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999">
+            <input type="date" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999">
 
             <label>Descrição</label>
-            <input class="desc" type="text" name="descricao" id="descricao">
+            <textarea class="descricao" type="text" name="descricao" id="descricao"></textarea>
 
             <div class="buttons">
                 <button type="submit" class="laranja">Salvar</button>

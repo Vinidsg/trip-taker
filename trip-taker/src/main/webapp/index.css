@@ -130,11 +130,7 @@ div {
     height: 40px;
 }
 
-.desc {
-    height: 300px !important ;
-    width: 900px !important;
-    border: 0;
-}
+
 
 .buttons {
     display: flex;
@@ -144,6 +140,14 @@ div {
     width: 900px;
     margin-top: 15px;
 }
+
+textarea {
+    height: 100px;
+    width: 900px;
+    border: 0;
+}
+
+
 
 
 .footerr {

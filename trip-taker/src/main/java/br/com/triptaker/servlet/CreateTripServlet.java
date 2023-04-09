@@ -23,7 +23,6 @@ public class CreateTripServlet extends HttpServlet {
         String dtFinal = request.getParameter("dtFinal");
         String descricao = request.getParameter("descricao");
 
-
         createEditTrip createEditTrip = new createEditTrip();
         createEditTrip.setLocal(local);
         createEditTrip.setQtdPessoas(qtdPessoa);
@@ -32,7 +31,6 @@ public class CreateTripServlet extends HttpServlet {
         createEditTrip.setDataInicio(dtInicio);
         createEditTrip.setDataFinal(dtFinal);
         createEditTrip.setDescricao(descricao);
-
 
         new TripTakerDAO().createTrip(createEditTrip);
         request.getRequestDispatcher("index.html").forward(request, response);
