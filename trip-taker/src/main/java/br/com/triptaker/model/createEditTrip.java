@@ -11,9 +11,9 @@ public class createEditTrip {
 
     private double valorUnitario;
 
-    private Date dataInicio;
+    private String dataInicio;
 
-    private Date dataFinal;
+    private String dataFinal;
 
     private String descricao;
 
@@ -51,19 +51,19 @@ public class createEditTrip {
         this.valorUnitario = valorUnitario;
     }
 
-    public Date getDataInicio() {
+    public String getDataInicio() {
         return dataInicio;
     }
 
-    public void setDataInicio(Date dataInicio) {
+    public void setDataInicio(String dataInicio) {
         this.dataInicio = dataInicio;
     }
 
-    public Date getDataFinal() {
+    public String getDataFinal() {
         return dataFinal;
     }
 
-    public void setDataFinal(Date dataFinal) {
+    public void setDataFinal(String dataFinal) {
         this.dataFinal = dataFinal;
     }
 
