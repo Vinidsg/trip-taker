@@ -659,3 +659,4 @@
 0:0:0:0:0:0:0:1 - - [08/Apr/2023:21:02:41 -0300] "POST /console/query.do?jsessionid=1981ad78c16807ae2fdcccb949a6480b HTTP/1.1" 200 8041 http-bio-8080-exec-10 6
 0:0:0:0:0:0:0:1 - - [08/Apr/2023:21:02:42 -0300] "GET /console/stylesheet.css HTTP/1.1" 304 - http-bio-8080-exec-10 1
 0:0:0:0:0:0:0:1 - - [08/Apr/2023:21:02:42 -0300] "GET /console/table.js HTTP/1.1" 304 - http-bio-8080-exec-10 2
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:23:03:12 -0300] "GET /index.css HTTP/1.1" 200 3608 http-bio-8080-exec-2 17
