@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd17651c-5010-439e-bc1a-054b1dfc6aec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/triptaker/servlet/CreateTripServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/triptaker/servlet/CreateTripServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/CreateTripServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/CreateTripServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-04-08" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-04-08" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-04-13" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-04-13" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

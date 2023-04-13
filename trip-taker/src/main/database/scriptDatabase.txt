@@ -1,4 +1,4 @@
-CREATE teste (
+CREATE TABLE CRIAR_EDITAR_ROTAS (
 	ID int auto_increment primary key not null,
 	LOCAL VARCHAR(255),
 	QTD_PESSOA INT,
