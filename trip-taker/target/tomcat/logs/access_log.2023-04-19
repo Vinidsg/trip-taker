@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [19/Apr/2023:19:34:47 -0300] "GET / HTTP/1.1" 200 9951 http-bio-8080-exec-1 62
+0:0:0:0:0:0:0:1 - - [19/Apr/2023:19:34:48 -0300] "GET /index.css HTTP/1.1" 200 3608 http-bio-8080-exec-2 5
+0:0:0:0:0:0:0:1 - - [19/Apr/2023:19:34:48 -0300] "GET /whatsapp.svg HTTP/1.1" 404 975 http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [19/Apr/2023:19:34:48 -0300] "GET /LogoTripTaker.png HTTP/1.1" 404 985 http-bio-8080-exec-4 5
+0:0:0:0:0:0:0:1 - - [19/Apr/2023:19:34:48 -0300] "GET /LogoTripTaker.png HTTP/1.1" 404 985 http-bio-8080-exec-6 1
+0:0:0:0:0:0:0:1 - - [19/Apr/2023:19:34:48 -0300] "GET /whatsapp.svg HTTP/1.1" 404 975 http-bio-8080-exec-7 1
+0:0:0:0:0:0:0:1 - - [19/Apr/2023:19:34:48 -0300] "GET /LogoTripTaker.png HTTP/1.1" 404 985 http-bio-8080-exec-8 2
+0:0:0:0:0:0:0:1 - - [19/Apr/2023:19:34:48 -0300] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-9 5
+0:0:0:0:0:0:0:1 - - [19/Apr/2023:19:34:48 -0300] "GET /LogoTripTaker.png HTTP/1.1" 404 985 http-bio-8080-exec-10 1
