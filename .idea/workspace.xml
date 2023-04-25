@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2550c051-d3c9-48b9-bd5b-02d1450a5d73" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/trip-taker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trip-taker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trip-taker/src/main/webapp/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/trip-taker/src/main/webapp/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trip-taker/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/trip-taker/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trip-taker/target/tomcat/logs/access_log.2023-04-13" beforeDir="false" afterPath="$PROJECT_DIR$/trip-taker/target/tomcat/logs/access_log.2023-04-13" afterDir="false" />
-    </list>
+    <list default="true" id="2550c051-d3c9-48b9-bd5b-02d1450a5d73" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
