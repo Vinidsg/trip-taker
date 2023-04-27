@@ -28,9 +28,7 @@ div {
 }
 
 .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
+
     font-size: x-large;
 }
 
@@ -46,16 +44,11 @@ div {
 }
 
 .menu2 {
-    font: 18px;
+    font: 25px;
     font-family: 'Noto Sans', sans-serif;
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 450px;
     align-items: center;
-    position: relative;
-    margin-right: 350px;
-    margin-left: 350px;
+
 }
 
 .buttonLogin {
@@ -67,6 +60,8 @@ div {
     color: 0D1E30;
     width: 100px;
     height: 35px;
+    margin-right: auto;
+    align-items: right;
     
 }
 
@@ -76,13 +71,13 @@ div {
     align-items: center;
     background-color: #0D1E30;
     color: #fff;
-    margin-left: -10px;
-    margin-right: -20px;
+    font-size:15px;
+
 }
 
 .titlePage>h1 {
     text-align: center;
-    font: 45px;
+    font: 5px;
     font-family: 'Noto Sans', sans-serif;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -119,6 +114,8 @@ margin-left: -10px;
     border: 30px;
     box-shadow: #23272a;
     position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.50);
+    border-bottom: 1px solid black;
 }
 
 .titulo_foto_praia_do_gunga
@@ -394,6 +391,76 @@ margin-left: -10px;
         align-items: center;
         padding-left: -180px;
     }
+
+    .tabela
+    {
+        text-align: center;
+        font: 45px;
+        font-family: 'Noto Sans', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: black;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: 100px;
+
+
+    }
+
+
+     .tabela
+        {
+            border-collapse: collapse;
+            margin: 45px 0: font-size: 0.9rem;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.35);
+
+        }
+
+
+     .tabela >* th
+     {
+        background-color: rgb(13, 30, 48, 1);
+        color: #ffffff;
+        text-align: center;
+     }
+
+    .tabela >th, td
+     {
+        padding: 30px 20px;
+     }
+
+     .tabela > tr.tabela-coluna-js
+     {
+        font-weight: bold;
+        color: #009879
+
+     }
+
+    .tabela > tr:nth-of-type(even)
+     {
+        border-bottom: 1px solid black;
+     }
+
+     .tabela-coluna
+     {
+        height: 50px;
+     }
+
+     .buttonLogin2 {
+         font-size: 18px;
+         font-family: 'Noto Sans', sans-serif;
+         border-radius: 70px;
+         background-color: #0D1E30;
+         border: 0px;
+         color: #ffffff;
+         width: 100px;
+         height: 40px;
+         margin-bottom: -320px;
+         margin-left: -20px;
+
+     }
+
 
 
 

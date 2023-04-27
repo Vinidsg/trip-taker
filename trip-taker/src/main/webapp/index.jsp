@@ -24,7 +24,7 @@
     </head>
 
     <header class="divHeader">
-        <img class="logo" src="LogoTripTaker.png" alt="Logo"/>
+        <img class="logo" src="./Assets/LogoTripTaker.png" alt="Logo"/>
 
         <div class="menu">
             <div class="menu2">
@@ -73,7 +73,7 @@
     <footer>
         <div class="footerr">
             <div class="telefone">
-                <img class="logo" src="LogoTripTaker.png" alt="Logo"/>
+                <img class="logo" src="./Assets/LogoTripTaker.png" alt="Logo"/>
                 <div class="whatsapp">
                     <img src="whatsapp.svg" alt=""/>
                     <p>WhatsApp</p>

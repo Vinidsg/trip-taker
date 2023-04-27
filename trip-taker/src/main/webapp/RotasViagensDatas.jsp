@@ -5,8 +5,23 @@
 
 <head>
     <meta charset="UTF-8">
-
-    <title>Document</title>
+        <link rel="stylesheet" href="index.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;500&display=swap" rel="stylesheet">
+        <style>
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+            }
+            input[type=number] {
+            -moz-appearance: textfield;
+            }
+        </style>
+    <title>Rotas Viagens e Datas</title>
 </head>
 <body>
     <link rel="stylesheet" type="text/css" href="RotasViagensDatas.css" media="screen" />
@@ -20,42 +35,20 @@
                 <a>Sobre</a>
             </div>
 
+                 <button class="buttonLogin">Login</button>
+
         </div>
     </header>
 
     <div class="titlePage">
-        <h1>Criar/ Editar Rotas</h1>
+        <h1>Rotas, Viagens e Datas</h1>
     </div>
 
     <div>
-        <table>
-            <tr>
-                <th>ID</th>
-                <th>Local</th>
-                <th>QuantidadePessoas  </th>
-                <th>Guia Responsavel</th>
-                <th>Valor Unitario</th>
-                <th>Data de ida</th>
-                <th>Data de volta</th>
-                 <th>Descricao</th>
 
-            </tr>
-            <c:forEach var="trip" items="${trips}">
-                    <tr>
-                            <td>${trip.id}</td>
-                            <td>${trip.local}</td>
-                            <td>${trip.qtdPessoas}</td>
-                            <td>${trip.guiaResponsavel}</td>
-                            <td>${trip.valorUnitario}</td>
-                            <td>${trip.dataInicio}</td>
-                            <td>${trip.dataFinal}</td>
-                            <td>${trip.descricao}</td>
-                    </tr>
-            </c:forEach>
-        </table>
 
     </div>
-
+<c:forEach var="trip" items="${trips}">
 <div class="sessao-02">
     <div class="foto_praia_gunga">
     <img alt="foto_praia_gunga" src="./Assets/praia-gunga.JPG">
@@ -65,46 +58,53 @@
         <h2>Praia do Gunga - AL</h2>
     </div>
 
+    <style>
+     border: 1px solid black;
+     border-collapse: collapse;
+
+     th, td
+     {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 40px;
+     }
+
+    </style>
+
+
+    <table class="tabela">
+                <tr class="tabela-coluna">
+
+                    <th class="local">Local</th>
+                    <th class="qtdPessoa">Quantidade de pessoas  </th>
+                    <th class="guia">Guia</th>
+                    <th class="valorUnitario">Valor Unitario</th>
+                    <th class="dataIda">  Data de ida</th>
+                    <th class="dataVolta">Data de volta</th>
+                    <th class="descricao">Descricao</th>
+
+                </tr>
+
+                        <tr class="tabela-coluna-js">
+
+                                <td>${trip.local}</td>
+                                <td>${trip.qtdPessoas}</td>
+                                <td>${trip.guiaResponsavel}</td>
+                                <td>${trip.valorUnitario}</td>
+                                <td>${trip.dataInicio}</td>
+                                <td>${trip.dataFinal}</td>
+                                <td>${trip.descricao}</td>
+                        </tr>
+
+
+
+     </table>
+ <button class="buttonLogin2">Agendar</button>
+
 
 </div>
-
-<div class="sessao-03">
-    <div class="foto_praia_gunga">
-    <img alt="foto_praia_gunga" src="./Assets/praia-gunga.JPG">
-    </div>
-
-    <div class="titulo_foto_praia_do_gunga">
-        <h2>Praia do Gunga - AL</h2>
-    </div>
-
-
-</div>
-
-<div class="sessao-04">
-    <div class="foto_praia_gunga">
-    <img alt="foto_praia_gunga" src="./Assets/praia-gunga.JPG">
-    </div>
-
-    <div class="titulo_foto_praia_do_gunga">
-        <h2>Praia do Gunga - AL</h2>
-    </div>
-
-
-</div>
-
-<div class="sessao-05">
-    <div class="foto_praia_gunga">
-    <img alt="foto_praia_gunga" src="./Assets/praia-gunga.JPG">
-    </div>
-
-    <div class="titulo_foto_praia_do_gunga">
-        <h2>Praia do Gunga - AL</h2>
-    </div>
-
-
-</div>
-
-
+</c:forEach>
 
 
 <footer>
