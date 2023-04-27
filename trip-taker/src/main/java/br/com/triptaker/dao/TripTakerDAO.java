@@ -58,7 +58,7 @@ public class TripTakerDAO {
 
             while(resultSet.next())
             {
-
+                String id = resultSet.getString("ID");
                 String local = resultSet.getString("LOCAL");
                 int qtdPessoa = resultSet.getInt("QTD_PESSOA");
                 String guiaResponsavel = resultSet.getString("GUIA_RESPONSAVEL");
@@ -67,7 +67,7 @@ public class TripTakerDAO {
                 String dtFinal = resultSet.getString("DATA_FINAL");
                 String descricao = resultSet.getString("DESCRICAO");
 
-                Trip trip = new Trip(local, qtdPessoa, guiaResponsavel, vlrUnitario, dtInicio, dtFinal, descricao);
+                Trip trip = new Trip(id, local, qtdPessoa, guiaResponsavel, vlrUnitario, dtInicio, dtFinal, descricao);
 
                 trips.add(trip);
             }
@@ -87,6 +87,29 @@ public class TripTakerDAO {
 
     }
 
+    public void deleteTripById (String id){
+        String SQL = "DELETE CRIAR_EDITAR_ROTAS WHERE ID = ?";
 
+
+            try {
+
+                Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
+
+                System.out.println("success in database connection");
+
+                PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+                preparedStatement.setString(1, id);
+                preparedStatement.execute();
+
+                System.out.println("success on delete trip   with id: " + id);
+
+                connection.close();
+
+            } catch (Exception e) {
+
+                System.out.println("fail in database connection");
+
+            }
+        }
 
 }

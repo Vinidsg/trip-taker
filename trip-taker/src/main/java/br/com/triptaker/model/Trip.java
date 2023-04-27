@@ -22,6 +22,18 @@ public class Trip {
 
 
     public Trip(String local, int qtdPessoas, String guiaResponsavel, double valorUnitario, String dataInicio, String dataFinal, String descricao) {
+
+        this.local = local;
+        this.qtdPessoas = qtdPessoas;
+        this.guiaResponsavel = guiaResponsavel;
+        this.valorUnitario = valorUnitario;
+        this.dataInicio = dataInicio;
+        this.dataFinal = dataFinal;
+        this.descricao = descricao;
+    }
+
+    public Trip(String id, String local, int qtdPessoas, String guiaResponsavel, double valorUnitario, String dataInicio, String dataFinal, String descricao) {
+        this.id = id;
         this.local = local;
         this.qtdPessoas = qtdPessoas;
         this.guiaResponsavel = guiaResponsavel;

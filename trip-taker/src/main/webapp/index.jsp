@@ -29,7 +29,7 @@
         <div class="menu">
             <div class="menu2">
                 <a>Home</a>
-                <a>Rotas</a>
+                <a href="find-all-trips">Rotas</a>
                 <a>Sobre</a>
             </div>
             <button class="buttonLogin">Login</button>

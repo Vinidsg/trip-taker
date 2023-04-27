@@ -61,7 +61,6 @@
     <style>
      border: 1px solid black;
      border-collapse: collapse;
-
      th, td
      {
         padding-top: 10px;
@@ -69,7 +68,6 @@
         padding-left: 30px;
         padding-right: 40px;
      }
-
     </style>
 
 
@@ -83,6 +81,8 @@
                     <th class="dataIda">  Data de ida</th>
                     <th class="dataVolta">Data de volta</th>
                     <th class="descricao">Descricao</th>
+                    <th class="descricao">Action</th>
+
 
                 </tr>
 
@@ -95,6 +95,12 @@
                                 <td>${trip.dataInicio}</td>
                                 <td>${trip.dataFinal}</td>
                                 <td>${trip.descricao}</td>
+                                <td>
+                                    <form action="/delete-trip" method="post">
+                                        <input type="hidden" id="id" name="id" value="${trip.id}">
+                                        <button type="submit" class="btnDelete">Delete</button>
+                                    </form>
+                                </td>
                         </tr>
 
 
