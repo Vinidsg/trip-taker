@@ -762,3 +762,15 @@
 0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:54:11 -0300] "GET /find-all-trips HTTP/1.1" 200 26375 http-bio-8080-exec-2 10
 0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:54:12 -0300] "POST /create-trip HTTP/1.1" 302 - http-bio-8080-exec-2 4
 0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:54:12 -0300] "GET /find-all-trips HTTP/1.1" 200 28336 http-bio-8080-exec-2 4
+0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:56:24 -0300] "GET / HTTP/1.1" 200 14843 http-bio-8080-exec-1 78
+0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:56:24 -0300] "GET /index.css HTTP/1.1" 200 4628 http-bio-8080-exec-3 6
+0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:56:24 -0300] "GET /logo.png HTTP/1.1" 200 58364 http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:56:24 -0300] "GET /praiaWP.jpg HTTP/1.1" 200 391957 http-bio-8080-exec-9 4
+0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:56:24 -0300] "GET /trilha.png HTTP/1.1" 200 770091 http-bio-8080-exec-6 14
+0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:56:24 -0300] "GET /cachoeira.png HTTP/1.1" 200 1516933 http-bio-8080-exec-7 26
+0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:56:24 -0300] "GET /praia.png HTTP/1.1" 200 1313484 http-bio-8080-exec-5 53
+0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:56:24 -0300] "GET /hotel.png HTTP/1.1" 200 990770 http-bio-8080-exec-8 35
+0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:56:24 -0300] "GET /trilhaWP.png HTTP/1.1" 200 2021860 http-bio-8080-exec-10 32
+0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:56:25 -0300] "GET /cachoeiraWP.jpg HTTP/1.1" 200 480373 http-bio-8080-exec-9 4
+0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:56:25 -0300] "GET /mapa.jpg HTTP/1.1" 200 46868 http-bio-8080-exec-6 3
+0:0:0:0:0:0:0:1 - - [27/Apr/2023:20:56:25 -0300] "GET /LogoTripTaker.ico HTTP/1.1" 200 229214 http-bio-8080-exec-10 3
