@@ -40,7 +40,7 @@ https://www.figma.com/proto/nCeRxZy5cMWnc1175pPA8C/Trip-Taker?node-id=1-149&scal
 
 Após efetuar o login na tela principal, o administrador será direcionado para a página Criar/Editar Rotas, permitindo que ele possa inserir e editar as rotas.
 
- [Tela do criar rotas preenchidas]
+ ![ExTelaCriarEditarRotas](/docs/ExTelaCriarEditarRotas.png)
 
 Após preencher todos os campos conforme a imagem acima, o administrador deve clicar em Salvar para a rota ser cadastrada.
 
