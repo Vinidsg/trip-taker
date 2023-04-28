@@ -54,17 +54,17 @@ Caso ele clique em Cancelar, os campos preenchidos serão apagados.
 
 Após efetuar o login na tela principal, o usuário poderá verificar as rotas cadastradas através do campo Rotas na barra de navegação.
 
-[tela de criar e editar rotas com a marcação em rotas]
+![RotastelaCriarRotas](/docs/RotastelaCriarRotas.png)
 
 Em seguida, ele conseguirá verificar todas as rotas cadastradas.
 
-[Tela de rotas]
+![TelaRotasViagens](/docs/TelaRotasViagens.PNG)
 
 ## Deletando as rotas cadastradas
 
-Na mesma tela de Rotas mencinado no campo acima (Verificando as rotas cadastradas), o administrador poderá excluir as rotas clicando na opção Excluir ao lado das rotas cadastradas que ele deseja excluir.
+Na mesma tela de Rotas mencinado no campo acima (Verificando as rotas cadastradas), o administrador poderá excluir as rotas clicando na opção Delete ao lado das rotas cadastradas que ele deseja excluir.
 
-[tela de Rotas com a marcação em excluir]
+![DeleteRotasViagem](/docs/DeleteRotasViagem.png)
 
 
 
