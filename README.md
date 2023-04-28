@@ -44,11 +44,11 @@ Após efetuar o login na tela principal, o administrador será direcionado para 
 
 Após preencher todos os campos conforme a imagem acima, o administrador deve clicar em Salvar para a rota ser cadastrada.
 
-[Imagem da tela criar/editar rotas com a marcação em Salvar]
+ ![SalvarTelaCriarRotas](/docs/SalvarTelaCriarRotas.png)
 
 Caso ele clique em Cancelar, os campos preenchidos serão apagados.
 
-[Imagem da tela criar/editar totas com a marcação em Cancelar]
+![CancelarTelaCriarRotas](/docs/CancelarTelaCriarRotas.png)
 
 ## Verificando as rotas cadastradas
 
