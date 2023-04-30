@@ -40,31 +40,31 @@ https://www.figma.com/proto/nCeRxZy5cMWnc1175pPA8C/Trip-Taker?node-id=1-149&scal
 
 Após efetuar o login na tela principal, o administrador será direcionado para a página Criar/Editar Rotas, permitindo que ele possa inserir e editar as rotas.
 
- [Tela do criar rotas preenchidas]
+ ![ExTelaCriarEditarRotas](/docs/ExTelaCriarEditarRotas.png)
 
 Após preencher todos os campos conforme a imagem acima, o administrador deve clicar em Salvar para a rota ser cadastrada.
 
-[Imagem da tela criar/editar rotas com a marcação em Salvar]
+ ![SalvarTelaCriarRotas](/docs/SalvarTelaCriarRotas.png)
 
 Caso ele clique em Cancelar, os campos preenchidos serão apagados.
 
-[Imagem da tela criar/editar totas com a marcação em Cancelar]
+![CancelarTelaCriarRotas](/docs/CancelarTelaCriarRotas.png)
 
 ## Verificando as rotas cadastradas
 
 Após efetuar o login na tela principal, o usuário poderá verificar as rotas cadastradas através do campo Rotas na barra de navegação.
 
-[tela de criar e editar rotas com a marcação em rotas]
+![RotastelaCriarRotas](/docs/RotastelaCriarRotas.png)
 
 Em seguida, ele conseguirá verificar todas as rotas cadastradas.
 
-[Tela de rotas]
+![TelaRotasViagens](/docs/TelaRotasViagens.PNG)
 
 ## Deletando as rotas cadastradas
 
-Na mesma tela de Rotas mencinado no campo acima (Verificando as rotas cadastradas), o administrador poderá excluir as rotas clicando na opção Excluir ao lado das rotas cadastradas que ele deseja excluir.
+Na mesma tela de Rotas mencinado no campo acima (Verificando as rotas cadastradas), o administrador poderá excluir as rotas clicando na opção Delete ao lado das rotas cadastradas que ele deseja excluir.
 
-[tela de Rotas com a marcação em excluir]
+![DeleteRotasViagem](/docs/DeleteRotasViagem.png)
 
 
 
