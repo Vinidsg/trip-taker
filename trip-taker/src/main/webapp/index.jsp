@@ -40,7 +40,7 @@
                         <a href="#" class="nav-link active primary-color" aria-current="page"> Início </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link primary-color">Rotas</a>
+                        <a href="/find-all-trips" class="nav-link primary-color">Rotas</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link primary-color">Sobre</a>

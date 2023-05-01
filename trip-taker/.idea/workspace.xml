@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dd17651c-5010-439e-bc1a-054b1dfc6aec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Assets/LogoTripTaker-footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Assets/LogoTripTaker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Assets/praia-gunga.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Assets/whatsapp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/RotasViagensDatas.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-01" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/RotasViagensDatas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/RotasViagensDatas.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Style/RotasViagensDatas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Style/RotasViagensDatas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
