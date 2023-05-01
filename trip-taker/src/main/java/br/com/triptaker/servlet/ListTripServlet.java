@@ -23,8 +23,5 @@ public class ListTripServlet extends HttpServlet
         req.setAttribute("trips", trips);
 
         req.getRequestDispatcher("RotasViagensDatas.jsp").forward(req, resp);
-
-
-
     }
 }

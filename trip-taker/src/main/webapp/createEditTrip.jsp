@@ -1,27 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
+<!doctype html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Trip Taker - Rotas, Viagens e Datas</title>
+    <title>Trip Taker - Início</title>
     <link rel="shortcut icon" href="/Images/LogoTripTaker.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;500&display=swap" rel="stylesheet">
 
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/Style/RotasViagensDatas.css">
+    <link rel="stylesheet" href="/Style/index.css">
+    <link rel="stylesheet" href="/Style/createEditTrip.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
-
+<body>
     <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
         <div class="container py-3">
             <a href="#" class="navbar-brand primary-color">
@@ -40,105 +38,56 @@
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="#" class="nav-link primary-color"  > Inicio </a>
+                        <a href="#" class="nav-link active primary-color" aria-current="page"> Início </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link active primary-color" aria-current="page">Rotas</a>
+                        <a href="#" class="nav-link primary-color">Rotas</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link primary-color">Sobre</a>
                     </li>
                 </ul>
-                    <div>
+                <div>
                     <button href="#" class="buttonLogin  btn-primary" id="loginBtn">Login</button>
                 </div>
             </div>
         </div>
     </nav>
+    <form action="/create-trip" method="post">
+        <div class="titlePage">
+            <h1>Criar/ Editar Rotas</h1>
+        </div>
+        <div class="formularioCER">
+            <div>
+                <label>Local</label>
+                <input type="text" name="local" id="local">
 
-<body>
-    <link rel="stylesheet" type="text/css" href="RotasViagensDatas.css" media="screen" />
+                <label>Quantidade de Pessoas</label>
+                <input type="number" name="qtdPessoa" id="qtdPessoa">
 
+                <label>Guia Responsável</label>
+                <input type="text" name="guiaResponsavel" id="guiaResponsavel">
 
-    <div class="titlePage">
-        <h1>Rotas, Viagens e Datas</h1>
-    </div>
+                <label>Valor Unitário</label>
+                <input type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario">
 
-<c:forEach var="trip" items="${trips}">
-<div class="sessao-02">
-    <div class="foto_praia_gunga">
-    <img alt="foto_praia_gunga" src="/Images/praia-gunga.jpeg">
-    </div>
+                <label>Data Início</label>
+                <input type="date" name="dtInicio" id="dtInicio" required placeholder="DD/MM/AAAA"  mask="99/99/9999">
 
-    <div class="titulo_foto_praia_do_gunga">
-        <h2>Praia do Gunga - AL</h2>
-    </div>
+                <label>Data Final</label>
+                <input type="date" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999">
 
-    <style>
-     border: 1px solid black;
-     border-collapse: collapse;
-     th, td
-     {
-        padding-top: 10px;
-        padding-bottom: 20px;
-        padding-left: 30px;
-        padding-right: 40px;
-     }
-    </style>
+                <label>Descrição</label>
+                <textarea class="descricao" type="text" name="descricao" id="descricao"></textarea>
 
-    <div class="btnAndTable">
-    <table class="tabela">
-                <tr class="tabela-coluna">
-
-                    <th class="local">Local</th>
-                    <th class="qtdPessoa">Capacidade</th>
-                    <th class="guia">Guia</th>
-                    <th class="valorUnitario">Valor</th>
-                    <th class="dataIda">Ida</th>
-                    <th class="dataVolta">Volta</th>
-                    <th class="descricao">Descricao</th>
-
-
-
-                </tr>
-
-                        <tr class="tabela-coluna-js">
-
-                                <td>${trip.local}</td>
-                                <td>${trip.qtdPessoas}</td>
-                                <td>${trip.guiaResponsavel}</td>
-                                <td>${trip.valorUnitario}</td>
-                                <td>${trip.dataInicio}</td>
-                                <td>${trip.dataFinal}</td>
-                                <td>${trip.descricao}</td>
-
-                        </tr>
-
-
-
-        </table>
-
-       <div class="container-buttons">
-                <div class="btnLogin">
-                    <button class="buttonLogin2">Agendar</button>
+                <div class="buttons">
+                    <button type="submit" class="laranja">Salvar</button>
+                    <button class="azul">Cancelar</button>
                 </div>
-
-            <div class="container-btnDelete">
-                <form action="/delete-trip" method="post">
-                <input type="hidden" id="id" name="id" value="${trip.id}">
-                <button type="submit" class="btnDelete">Deletar</button>
-                </form>
             </div>
-
-       </div>
         </div>
-
-        </div>
-    </div>
-</c:forEach>
-
-
-  <footer class="container-fluid bg-primary-color" id="footer">
+    </form>
+    <footer class="container-fluid bg-primary-color" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-12" id="footer-top">
@@ -160,5 +109,14 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(function() {
+        $('#loginBtn').click(function() {
+          $('#loginModal').modal('show');
+        });
+      });
+    </script>
 </body>
 </html>

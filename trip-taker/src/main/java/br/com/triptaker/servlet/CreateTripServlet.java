@@ -25,7 +25,6 @@ public class CreateTripServlet extends HttpServlet {
 
         Trip trip = new Trip(local, qtdPessoa, guiaResponsavel, vlrUnitario, dtInicio, dtFinal, descricao);
 
-
         new TripTakerDAO().createTrip(trip);
         response.sendRedirect("/find-all-trips");
     }

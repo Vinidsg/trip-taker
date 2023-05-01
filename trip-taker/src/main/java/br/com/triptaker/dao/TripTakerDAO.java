@@ -34,7 +34,7 @@ public class TripTakerDAO {
 
             connection.close();
 
-            System.out.println("success in connection");
+            System.out.println("success in insertion");
 
         } catch (Exception e) {
 
@@ -44,7 +44,7 @@ public class TripTakerDAO {
     }
 
 
-        public List<Trip> findAllTrips() {
+    public List<Trip> findAllTrips() {
         String SQL = "SELECT * FROM CRIAR_EDITAR_ROTAS";
 
         try
@@ -91,25 +91,25 @@ public class TripTakerDAO {
         String SQL = "DELETE CRIAR_EDITAR_ROTAS WHERE ID = ?";
 
 
-            try {
+        try {
 
-                Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
+            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
 
-                System.out.println("success in database connection");
+            System.out.println("success in database connection");
 
-                PreparedStatement preparedStatement = connection.prepareStatement(SQL);
-                preparedStatement.setString(1, id);
-                preparedStatement.execute();
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+            preparedStatement.setString(1, id);
+            preparedStatement.execute();
 
-                System.out.println("success on delete trip   with id: " + id);
+            System.out.println("success on delete trip   with id: " + id);
 
-                connection.close();
+            connection.close();
 
-            } catch (Exception e) {
+        } catch (Exception e) {
 
-                System.out.println("fail in database connection");
+            System.out.println("fail in database connection Delete");
 
-            }
         }
+    }
 
 }
