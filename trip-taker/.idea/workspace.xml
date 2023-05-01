@@ -5,11 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd17651c-5010-439e-bc1a-054b1dfc6aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-04-27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/LogoTripTaker.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Images/LogoTripTaker.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cachoeira.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Images/cachoeira.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cachoeiraWP.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Images/cachoeiraWP.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hotel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Images/hotel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/createEditTrip.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/mapa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Images/mapa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/praia.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Images/praia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/praiaWP.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Images/praiaWP.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Script/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/trilha.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Images/trilha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/trilhaWP.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Images/trilhaWP.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/whatsapp.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Images/whatsapp.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +75,27 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\webapp\Script" />
+      <recent name="C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\webapp\Style" />
       <recent name="C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\webapp" />
+      <recent name="C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\webapp\Pages" />
+      <recent name="C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\webapp\Images" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Trip-taker" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Trip-taker" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

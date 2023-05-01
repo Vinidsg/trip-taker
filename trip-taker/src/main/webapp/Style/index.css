@@ -27,6 +27,7 @@
 }
 
 .buttonLogin {
+    background-color: #FFF;
     border: 0;
     color: #0D1E30;
     border-radius: 20px;
@@ -38,7 +39,7 @@
 }
 
 .buttonLogin:hover {
-    background-color: #9B9B9B;
+    background-color: #D53620;
     transition: 0.5s;
 }
 
@@ -276,7 +277,7 @@
 }
 
 .logoIMG {
-    width: 100px;
+    width: 80px;
 }
 
 #footer {
