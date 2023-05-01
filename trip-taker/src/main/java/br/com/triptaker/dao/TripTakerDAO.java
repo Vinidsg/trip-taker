@@ -34,7 +34,7 @@ public class TripTakerDAO {
 
             connection.close();
 
-            System.out.println("success in connection");
+            System.out.println("success in insertion");
 
         } catch (Exception e) {
 

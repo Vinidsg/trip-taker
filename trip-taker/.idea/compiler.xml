@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="createEditTrip-taker" />
+        <module name="Trip-taker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="createEditTrip-taker" target="11" />
       <module name="trip-taker" target="11" />
     </bytecodeTargetLevel>
   </component>
