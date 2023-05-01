@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trip Taker - Início</title>
-    <link rel="shortcut icon" href="LogoTripTaker.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/Images/LogoTripTaker.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +15,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/Style/index.css">
+    <link rel="stylesheet" href="/Style/createEditTrip.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
@@ -22,7 +23,7 @@
     <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
         <div class="container py-3">
             <a href="#" class="navbar-brand primary-color">
-                <img src="logo.png" alt=""/>
+                <img src="/Images/logo.png" alt=""/>
             </a>
             <button
                     class="navbar-toggler"
@@ -52,14 +53,47 @@
             </div>
         </div>
     </nav>
-    
+    <form action="/create-trip" method="post">
+        <div class="titlePage">
+            <h1>Criar/ Editar Rotas</h1>
+        </div>
+        <div class="formularioCER">
+            <div>
+                <label>Local</label>
+                <input type="text" name="local" id="local">
+
+                <label>Quantidade de Pessoas</label>
+                <input type="number" name="qtdPessoa" id="qtdPessoa">
+
+                <label>Guia Responsável</label>
+                <input type="text" name="guiaResponsavel" id="guiaResponsavel">
+
+                <label>Valor Unitário</label>
+                <input type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario">
+
+                <label>Data Início</label>
+                <input type="date" name="dtInicio" id="dtInicio" required placeholder="DD/MM/AAAA"  mask="99/99/9999">
+
+                <label>Data Final</label>
+                <input type="date" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999">
+
+                <label>Descrição</label>
+                <textarea class="descricao" type="text" name="descricao" id="descricao"></textarea>
+
+                <div class="buttons">
+                    <button type="submit" class="laranja">Salvar</button>
+                    <button class="azul">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </form>
     <footer class="container-fluid bg-primary-color" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-12" id="footer-top">
                     <div class="row justify-content-between">
                         <div class="col-4">
-                            <img src="logo.png" alt="Logo" class="logoIMG">
+                            <img src="/Images/logo.png" alt="Logo" class="logoIMG">
                         </div>
                         <div class="col-4" id="social-icons">
                             <i class="bi bi-facebook"></i>
