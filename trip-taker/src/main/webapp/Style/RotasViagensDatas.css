@@ -1,0 +1,485 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+
+div {
+    overflow: hidden;
+}
+
+.logoTripTaker {
+    width: 300px;
+}
+
+.divHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    background-color: #0D1E30;
+    color: #fff;
+    padding: 100px 100px 30px 80px;
+    margin-top: -28px;
+    margin-left: -50px;
+
+}
+
+.menu {
+
+    font-size: x-large;
+}
+
+.menu>a {
+    font-size: x-large;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.menu2 {
+    font: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.buttonLogin {
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 70px;
+    background-color: #ffffff;
+    border: 0px;
+    color: 0D1E30;
+    width: 100px;
+    height: 35px;
+    margin-right: auto;
+    align-items: right;
+
+}
+
+.btnDelete {
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 70px;
+    background-color: #D53620;
+    border: 0px;
+    color: #ffffff;
+    width: 100px;
+    height: 35px;
+    margin-right: auto;
+    align-items: right;
+}
+
+.titlePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0D1E30;
+    color: #fff;
+    font-size:15px;
+
+}
+
+.titlePage>h1 {
+    text-align: center;
+    font: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+/*Sessão 2*/
+
+.sessao-02{
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: center;
+padding: 110px 50px;
+background-color: #E6E6E6;
+width: auto;
+margin-right: -50px;
+margin-left: -10px;
+
+}
+
+
+
+.sessao-02 > img
+{
+    border-color: #23272a;
+    border: 30px;
+    box-shadow: #23272a;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.50);
+    border-bottom: 1px solid black;
+}
+
+.titulo_foto_praia_do_gunga
+{
+    font-family:'Open Sans';
+    font-size: larger ;
+    color: #23272a;
+    margin-left: -630px;
+    margin-top: -270px;
+}
+
+
+
+
+
+
+/*Sessão 2*/
+
+.sessao-02{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 110px 50px;
+    background-color: #E6E6E6;
+    width: auto;
+    margin-right: -50px;
+    margin-left: -10px;
+
+    }
+
+
+
+    .sessao-02 > img
+    {
+        border-color: #23272a;
+        border: 30px;
+        box-shadow: #23272a;
+        position: relative;
+    }
+
+    .titulo_foto_praia_do_gunga
+    {
+        font-family:'Open Sans';
+        font-size: larger ;
+        color: #23272a;
+        margin-left: -630px;
+        margin-top: -270px;
+    }
+
+
+
+
+
+
+
+
+    /*Sessão 2*/
+
+.sessao-02{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 110px 50px;
+    background-color: #E6E6E6;
+    width: auto;
+    margin-right: -50px;
+    margin-left: -10px;
+
+    }
+
+
+
+    .sessao-02 > img
+    {
+        border-color: #23272a;
+        border: 30px;
+        box-shadow: #23272a;
+        position: relative;
+    }
+
+    .titulo_foto_praia_do_gunga
+    {
+        font-family:'Open Sans';
+        font-size: larger ;
+        color: #23272a;
+        margin-left: -630px;
+        margin-top: -270px;
+    }
+
+
+
+
+    /*Sessão 3*/
+
+.sessao-03{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 110px 50px;
+    background-color: #E6E6E6;
+    width: auto;
+    margin-right: -50px;
+    margin-left: -10px;
+
+    }
+
+
+
+    .sessao-03 > img
+    {
+        border-color: #23272a;
+        border: 30px;
+        box-shadow: #23272a;
+        position: relative;
+    }
+
+    .titulo_foto_praia_do_gunga
+    {
+        font-family:'Open Sans';
+        font-size: larger ;
+        color: #23272a;
+        margin-left: -630px;
+        margin-top: -270px;
+    }
+
+
+
+
+    /*Sessão 4*/
+
+.sessao-04{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 110px 50px;
+    background-color: #E6E6E6;
+    width: auto;
+    margin-right: -50px;
+    margin-left: -10px;
+
+    }
+
+
+
+    .sessao-04 > img
+    {
+        border-color: #23272a;
+        border: 30px;
+        box-shadow: #23272a;
+        position: relative;
+    }
+
+    .titulo_foto_praia_do_gunga
+    {
+        font-family:'Open Sans';
+        font-size: larger ;
+        color: #23272a;
+        margin-left: -630px;
+        margin-top: -270px;
+    }
+
+
+
+
+
+
+
+    /*Sessão 5*/
+
+.sessao-05{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 110px 50px;
+    background-color: #E6E6E6;
+    width: auto;
+    margin-right: -50px;
+    margin-left: -10px;
+
+    }
+
+
+
+    .sessao-05 > img
+    {
+        border-color: #23272a;
+        border: 30px;
+        box-shadow: #23272a;
+        position: relative;
+    }
+
+    .titulo_foto_praia_do_gunga
+    {
+        font-family:'Open Sans';
+        font-size: larger ;
+        color: #23272a;
+        margin-left: -630px;
+        margin-top: -270px;
+    }
+
+
+
+
+
+    .footerr {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 94%;
+        align-items: center;
+        padding: 50px 100px 50px 100px;
+        background-color:  rgb(13, 30, 48, 1);
+        margin-left: -60px;
+    }
+
+    .telefone {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .telefone>p {
+        color: #fff;
+        font: 18px;
+        font-family: 'Noto Sans', sans-serif;
+        margin-left: 5px;
+    }
+
+    .whatsapp {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        color: #fff;
+        font: 18px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    .whatsapp>img {
+        width: 30px;
+        padding-top: 8px;
+    }
+
+    .fiquePorDentro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+    }
+
+    .fiquePorDentro>p {
+        font: 18px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    .redesSociais {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .redesSociais>svg {
+        margin: 15px;
+    }
+
+    .arrow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: -180px;
+    }
+
+    .tabela
+    {
+        text-align: center;
+        font: 45px;
+        font-family: 'Noto Sans', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: black;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: 100px;
+
+
+    }
+
+
+     .tabela
+        {
+            border-collapse: collapse;
+            margin: 45px 0: font-size: 0.9rem;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.35);
+
+        }
+
+
+     .tabela >* th
+     {
+        background-color: rgb(13, 30, 48, 1);
+        color: #ffffff;
+        text-align: center;
+     }
+
+    .tabela >th, td
+     {
+        padding: 30px 20px;
+     }
+
+     .tabela > tr.tabela-coluna-js
+     {
+        font-weight: bold;
+        color: #009879
+
+     }
+
+    .tabela > tr:nth-of-type(even)
+     {
+        border-bottom: 1px solid black;
+     }
+
+     .tabela-coluna
+     {
+        height: 50px;
+     }
+
+     .buttonLogin2 {
+         font-size: 18px;
+         font-family: 'Noto Sans', sans-serif;
+         border-radius: 70px;
+         background-color: #0D1E30;
+         border: 0px;
+         color: #ffffff;
+         width: 100px;
+         height: 40px;
+         margin-bottom: -320px;
+         margin-left: -20px;
+
+     }
+
+
+
+
+
+
+
+
+
+
