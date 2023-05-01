@@ -34,3 +34,43 @@ https://www.figma.com/proto/nCeRxZy5cMWnc1175pPA8C/Trip-Taker?node-id=1-149&scal
 
 ## Telas no Figma
 ![triptaker-figma](/docs/triptaker-figma.png)
+
+
+## Criando novas rotas
+
+Após efetuar o login na tela principal, o administrador será direcionado para a página Criar/Editar Rotas, permitindo que ele possa inserir e editar as rotas.
+
+ ![ExTelaCriarEditarRotas](/docs/ExTelaCriarEditarRotas.png)
+
+Após preencher todos os campos conforme a imagem acima, o administrador deve clicar em Salvar para a rota ser cadastrada.
+
+ ![SalvarTelaCriarRotas](/docs/SalvarTelaCriarRotas.png)
+
+Caso ele clique em Cancelar, os campos preenchidos serão apagados.
+
+![CancelarTelaCriarRotas](/docs/CancelarTelaCriarRotas.png)
+
+## Verificando as rotas cadastradas
+
+Após efetuar o login na tela principal, o usuário poderá verificar as rotas cadastradas através do campo Rotas na barra de navegação.
+
+![RotastelaCriarRotas](/docs/RotastelaCriarRotas.png)
+
+Em seguida, ele conseguirá verificar todas as rotas cadastradas.
+
+![TelaRotasViagens](/docs/TelaRotasViagens.PNG)
+
+## Deletando as rotas cadastradas
+
+Na mesma tela de Rotas mencinado no campo acima (Verificando as rotas cadastradas), o administrador poderá excluir as rotas clicando na opção Delete ao lado das rotas cadastradas que ele deseja excluir.
+
+![DeleteRotasViagem](/docs/DeleteRotasViagem.png)
+
+
+
+
+
+
+
+
+
