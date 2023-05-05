@@ -80,6 +80,9 @@
                 <label>Descrição</label>
                 <textarea class="descricao" type="text" name="descricao" id="descricao"></textarea>
 
+                <label for="file"> Choose file</label>
+                <input type="file" name="file" id="file">
+
                 <div class="buttons">
                     <button type="submit" class="laranja">Salvar</button>
                     <button class="azul">Cancelar</button>
