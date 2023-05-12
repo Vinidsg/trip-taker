@@ -22,6 +22,10 @@
     padding-left:400px;
 }
 
+#footer
+{
+    overflow-y: hidden;
+}
 
 
 
@@ -30,15 +34,7 @@
 /*Sessão 2*/
 
 .sessao-02{
-display: flex;
-flex-direction: row;
-justify-content: left;
-align-items: center;
-padding: 110px 50px;
-background-color: #E6E6E6;
-width: auto;
-margin-right: -50px;
-margin-left: -10px;
+
 
 }
 
@@ -71,15 +67,7 @@ margin-left: -10px;
 /*Sessão 2*/
 
 .sessao-02{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    padding: 110px 50px;
-    background-color: #E6E6E6;
-    width: auto;
-    margin-right: -50px;
-    margin-left: -10px;
+
 
     }
 
@@ -119,9 +107,6 @@ margin-left: -10px;
     padding: 110px 50px;
     background-color: #E6E6E6;
     width: auto;
-    margin-right: -50px;
-    margin-left: -10px;
-
     }
 
 

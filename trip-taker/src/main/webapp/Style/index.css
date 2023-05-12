@@ -282,6 +282,9 @@
 
 #footer {
     padding: 1.5em 0.5em;
+     position: relative;
+        bottom:0;
+        left:0;
 }
 
 #footer-top {
@@ -315,4 +318,8 @@
     cursor: pointer;
     font-size: 3em;
     margin-left: 380px;
+}
+.hamburguer
+{
+    color:#ffffff;
 }
