@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html lang="pt-br">
 <head>
@@ -53,32 +54,37 @@
             </div>
         </div>
     </nav>
-    <form action="/create-trip" method="post">
+
+    <form action="/create-trip" method="post" enctype="multipart/form-data">
         <div class="titlePage">
             <h1>Criar/ Editar Rotas</h1>
         </div>
         <div class="formularioCER">
             <div>
+                <input type="hidden" id="id" name="id" value="${param.id}">
                 <label>Local</label>
-                <input type="text" name="local" id="local">
+                <input type="text" name="local" id="local" value="${param.local}">
 
                 <label>Quantidade de Pessoas</label>
-                <input type="number" name="qtdPessoa" id="qtdPessoa">
+                <input type="number" name="qtdPessoa" id="qtdPessoa" value="${param.qtdPessoa}">
 
                 <label>Guia Responsável</label>
-                <input type="text" name="guiaResponsavel" id="guiaResponsavel">
+                <input type="text" name="guiaResponsavel" id="guiaResponsavel" value="${param.guiaResponsavel}">
 
                 <label>Valor Unitário</label>
-                <input type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario">
+                <input type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario" value="${param.valorUnitario}">
 
                 <label>Data Início</label>
-                <input type="date" name="dtInicio" id="dtInicio" required placeholder="DD/MM/AAAA"  mask="99/99/9999">
+                <input type="date" name="dtInicio" id="dtInicio" required placeholder="DD/MM/AAAA"  mask="99/99/9999" value="${param.dataInicio}">
 
                 <label>Data Final</label>
-                <input type="date" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999">
+                <input type="date" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999" value="${param.dataFinal}">
 
                 <label>Descrição</label>
-                <textarea class="descricao" type="text" name="descricao" id="descricao"></textarea>
+                <textarea class="descricao" type="text" name="descricao" id="descricao">${param.descricao}</textarea>
+
+                <label for="file"> Choose file</label>
+                <input type="file" name="file" id="file" value="${param.file}">>
 
                 <div class="buttons">
                     <button type="submit" class="laranja">Salvar</button>
@@ -87,6 +93,7 @@
             </div>
         </div>
     </form>
+
     <footer class="container-fluid bg-primary-color" id="footer">
         <div class="container">
             <div class="row">

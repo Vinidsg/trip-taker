@@ -16,13 +16,9 @@ public class Trip {
 
     private String descricao;
 
+    private String image;
 
-
-
-
-
-    public Trip(String local, int qtdPessoas, String guiaResponsavel, double valorUnitario, String dataInicio, String dataFinal, String descricao) {
-
+    public Trip(String local, int qtdPessoas, String guiaResponsavel, double valorUnitario, String dataInicio, String dataFinal, String descricao, String image) {
         this.local = local;
         this.qtdPessoas = qtdPessoas;
         this.guiaResponsavel = guiaResponsavel;
@@ -30,9 +26,11 @@ public class Trip {
         this.dataInicio = dataInicio;
         this.dataFinal = dataFinal;
         this.descricao = descricao;
+        this.image = image;
+
     }
 
-    public Trip(String id, String local, int qtdPessoas, String guiaResponsavel, double valorUnitario, String dataInicio, String dataFinal, String descricao) {
+    public Trip(String id, String local, int qtdPessoas, String guiaResponsavel, double valorUnitario, String dataInicio, String dataFinal, String descricao, String image) {
         this.id = id;
         this.local = local;
         this.qtdPessoas = qtdPessoas;
@@ -41,9 +39,8 @@ public class Trip {
         this.dataInicio = dataInicio;
         this.dataFinal = dataFinal;
         this.descricao = descricao;
+        this.image = image;
     }
-
-
 
 
     public String getLocal() {
@@ -89,6 +86,14 @@ public class Trip {
 
     public String getId() {
         return id;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 
 

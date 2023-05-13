@@ -68,7 +68,9 @@
 <c:forEach var="trip" items="${trips}">
 <div class="sessao-02">
     <div class="foto_praia_gunga">
-    <img alt="foto_praia_gunga" src="/Images/praia-gunga.jpeg">
+        <a href="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}">
+            <img style="width: 100px" src="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}" alt="...">
+        </a>
     </div>
 
     <div class="titulo_foto_praia_do_gunga">
