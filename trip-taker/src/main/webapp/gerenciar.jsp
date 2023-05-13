@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -59,9 +60,18 @@
             </div>
         </div>
     </nav>
-
-    <div class="titulo-gerenciar">
-        <h1>Gerenciar Rota</h1>
+    <div class="imagens">
+        <c:forEach var="trip" items="${trips}">
+            <a href="/createEditTrip.jsp?id=${trip.id}&local=${trip.local}&guiaResponsavel=${trip.guiaResponsavel}&qtdPessoa=${trip.qtdPessoas}&valorUnitario=${trip.valorUnitario}&dataInicio=${trip.dataInicio}&dataFinal=${trip.dataFinal}&descricao=${trip.descricao}">
+                <img style="width: 300px" src="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}">
+                <div class="container-btnDelete">
+                    <form action="/delete-trip" method="post">
+                        <input type="hidden" id="id" name="id" value="${trip.id}">
+                        <button type="submit" class="btnDelete">Deletar</button>
+                    </form>
+                </div>
+            </a>
+        </c:forEach>
     </div>
 
     <footer class="container-fluid bg-primary-color mt-auto" id="footer">

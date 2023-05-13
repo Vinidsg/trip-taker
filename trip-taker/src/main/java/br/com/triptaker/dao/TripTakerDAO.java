@@ -14,7 +14,7 @@ import java.util.List;
 public class TripTakerDAO {
     public void createTrip(Trip Trip) {
 
-        String SQL = "INSERT INTO CRIAR_EDITAR_ROTAS  (LOCAL, QTD_PESSOA, GUIA_RESPONSAVEL, VALOR_UNITARIO, DATA_INICIO, DATA_FINAL, DESCRICAO, IMAGE) VALUES (?, ?, ?, ?, ?, ?, ?)";
+        String SQL = "INSERT INTO CRIAR_EDITAR_ROTAS  (LOCAL, QTD_PESSOA, GUIA_RESPONSAVEL, VALOR_UNITARIO, DATA_INICIO, DATA_FINAL, DESCRICAO, IMAGE) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
         try {
 
@@ -29,6 +29,7 @@ public class TripTakerDAO {
             preparedStatement.setString(5, Trip.getDataInicio());
             preparedStatement.setString(6, Trip.getDataFinal());
             preparedStatement.setString(7, Trip.getDescricao());
+            preparedStatement.setString(8, Trip.getImage());
 
             preparedStatement.execute();
 
@@ -66,8 +67,9 @@ public class TripTakerDAO {
                 String dtInicio = resultSet.getString("DATA_INICIO");
                 String dtFinal = resultSet.getString("DATA_FINAL");
                 String descricao = resultSet.getString("DESCRICAO");
+                String image = resultSet.getString("IMAGE");
 
-                Trip trip = new Trip(id, local, qtdPessoa, guiaResponsavel, vlrUnitario, dtInicio, dtFinal, descricao);
+                Trip trip = new Trip(id, local, qtdPessoa, guiaResponsavel, vlrUnitario, dtInicio, dtFinal, descricao, image);
 
                 trips.add(trip);
             }
@@ -108,6 +110,36 @@ public class TripTakerDAO {
         } catch (Exception e) {
 
             System.out.println("fail in database connection Delete");
+
+        }
+    }
+    public void updateTrip(Trip Trip) {
+        String SQL = "UPDATE CRIAR_EDITAR_ROTAS SET LOCAL = ?, QTD_PESSOA = ?, GUIA_RESPONSAVEL = ?, VALOR_UNITARIO = ?, DATA_INICIO = ?, DATA_FINAL = ?, DESCRICAO = ? WHERE ID = ?";
+        try {
+
+            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
+
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+
+            preparedStatement.setString(1, Trip.getLocal());
+            preparedStatement.setInt(2, Trip.getQtdPessoas());
+            preparedStatement.setString(3, Trip.getGuiaResponsavel());
+            preparedStatement.setDouble(4, Trip.getValorUnitario());
+            preparedStatement.setString(5, Trip.getDataInicio());
+            preparedStatement.setString(6, Trip.getDataFinal());
+            preparedStatement.setString(7, Trip.getDescricao());
+            preparedStatement.setString(8, Trip.getId());
+
+            preparedStatement.execute();
+
+            connection.close();
+
+            System.out.println("success in update");
+
+        } catch (Exception e) {
+
+            System.out.println("fail in connection");
+            System.out.println("Error: " + e.getMessage());
 
         }
     }

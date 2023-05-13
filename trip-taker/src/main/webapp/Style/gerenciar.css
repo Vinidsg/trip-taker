@@ -120,3 +120,15 @@
     font-size: 3em;
     margin-left: 380px;
 }
+
+.imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens img {
+    margin-right: 10px; /* Define a margem entre as imagens */
+    margin-top: 100px;
+}

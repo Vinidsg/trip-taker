@@ -3,3 +3,4 @@
 /home/vinicius/Documentos/Estudos/faculdade/PI/trip-taker/trip-taker/src/main/java/br/com/triptaker/model/Trip.java
 /home/vinicius/Documentos/Estudos/faculdade/PI/trip-taker/trip-taker/src/main/java/br/com/triptaker/servlet/DeleteTripServlet.java
 /home/vinicius/Documentos/Estudos/faculdade/PI/trip-taker/trip-taker/src/main/java/br/com/triptaker/servlet/CreateTripServlet.java
+/home/vinicius/Documentos/Estudos/faculdade/PI/trip-taker/trip-taker/src/main/java/br/com/triptaker/servlet/ListTripServlet_gerenciar.java
