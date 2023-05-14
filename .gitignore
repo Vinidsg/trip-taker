@@ -7,3 +7,4 @@ trip-taker/target/tomcat/logs/access_log.2023-04-13
 .idea/vcs.xml
 trip-taker/target/tomcat/logs/access_log.2023-04-13
 trip-taker/target/tomcat/logs/access_log.2023-04-13
+*.2023-05-14

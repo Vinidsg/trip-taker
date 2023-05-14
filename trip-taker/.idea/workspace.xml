@@ -4,15 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="dd17651c-5010-439e-bc1a-054b1dfc6aec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Style/createEditTrip.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Style/createEditTrip.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/createEditTrip.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/createEditTrip.jsp" afterDir="false" />
+    <list default="true" id="9e1c08c5-afe3-4916-9a78-1ab9bb722a2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/triptaker/servlet/ListTripServlet_gerenciar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Style/gerenciar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/gerenciar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1683850488787-spiderman-into-the-spider-verse-characters-7-4k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1683998754371-ANostalgicwallpaperfromAkiraAnime1988[1920x1080].png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1683999147476-spiderman-into-the-spider-verse-characters-7-4k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1683999197434-jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1683999275091-jpeg(1)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008320550-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008475865-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008611300-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008703847-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008720119-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008733336-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008744062-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008752931-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008763398-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684009184996-logo-app.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684020019625-2473c02e2ac93f617a28b2b5058bb41d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684020140972-2473c02e2ac93f617a28b2b5058bb41d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684020204519-2473c02e2ac93f617a28b2b5058bb41d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684021147722-2473c02e2ac93f617a28b2b5058bb41d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684022212529-2473c02e2ac93f617a28b2b5058bb41d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027026066-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027062037-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027112154-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027126154-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027141746-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027179294-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027263700-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027275564-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027290354-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027301712-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027312279-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027324239-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684029690047-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684029995901-praia-gunga.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teste.jsp" afterDir="false" />
     </list>
-=======
-    <list default="true" id="dd17651c-5010-439e-bc1a-054b1dfc6aec" name="Changes" comment="" />
->>>>>>> f0b815f697e5b25043e16b6f6545f11c2b1bf5d5
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,8 +54,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
-        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -34,16 +64,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-<<<<<<< HEAD
-=======
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
->>>>>>> f0b815f697e5b25043e16b6f6545f11c2b1bf5d5
   <component name="ProjectId" id="2Nw5a24d50e5X51Efulte8CCslf" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,7 +79,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
@@ -60,44 +86,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/vinicius/Documentos/Estudos/faculdade/PI/trip-taker/trip-taker&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vinic/IdeaProjects/carsoft&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
-=======
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/rodri/Documents/PI-III/trip-taker/trip-taker",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
->>>>>>> f0b815f697e5b25043e16b6f6545f11c2b1bf5d5
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
-    ]
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -117,25 +110,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680562365910</updated>
-      <workItem from="1683058802591" duration="640000" />
-      <workItem from="1683067042738" duration="46000" />
-      <workItem from="1683072677261" duration="23000" />
-      <workItem from="1683132077343" duration="5338000" />
-      <workItem from="1683158779494" duration="90000" />
-      <workItem from="1683240396244" duration="5888000" />
-      <workItem from="1683325512611" duration="12000" />
-      <workItem from="1683395032258" duration="619000" />
-      <workItem from="1683635685863" duration="5394000" />
-      <workItem from="1683844962275" duration="7493000" />
-      <workItem from="1683896325120" duration="1235000" />
-      <workItem from="1683930804848" duration="39000" />
-      <workItem from="1683997504424" duration="3911000" />
-      <workItem from="1684002275299" duration="8123000" />
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -151,9 +127,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

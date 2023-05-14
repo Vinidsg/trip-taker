@@ -1,8 +1,8 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <%@ page contentType="text/html; charset=UTF-8" %>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -54,45 +54,32 @@
             </div>
         </div>
     </nav>
-
-    <form action="/create-trip" method="post" enctype="multipart/form-data">
+    <form action="/create-trip" method="post">
         <div class="titlePage">
             <h1>Criar/ Editar Rotas</h1>
         </div>
         <div class="formularioCER">
             <div>
-                <input type="hidden" id="id" name="id" value="${param.id}">
                 <label>Local</label>
-                <input type="text" name="local" id="local" value="${param.local}">
+                <input type="text" name="local" id="local">
 
                 <label>Quantidade de Pessoas</label>
-                <input type="number" name="qtdPessoa" id="qtdPessoa" value="${param.qtdPessoa}">
-
-                      <div class = "upload-image">
-                         <label class ="upload-message"for="file"> Choose file</label>
-                          <input class=" upload-buttom-image"type="file" name="file" id="file" value="${param.file}">
-                      </div>
-
+                <input type="number" name="qtdPessoa" id="qtdPessoa">
 
                 <label>Guia Responsável</label>
-                <input type="text" name="guiaResponsavel" id="guiaResponsavel" value="${param.guiaResponsavel}">
+                <input type="text" name="guiaResponsavel" id="guiaResponsavel">
 
                 <label>Valor Unitário</label>
-                <input type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario" value="${param.valorUnitario}">
+                <input type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario">
 
                 <label>Data Início</label>
-                <input type="date" name="dtInicio" id="dtInicio" required placeholder="DD/MM/AAAA"  mask="99/99/9999" value="${param.dataInicio}">
+                <input type="date" name="dtInicio" id="dtInicio" required placeholder="DD/MM/AAAA"  mask="99/99/9999">
 
                 <label>Data Final</label>
-                <input type="date" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999" value="${param.dataFinal}">
+                <input type="date" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999">
 
                 <label>Descrição</label>
-                <textarea class="descricao" type="text" name="descricao" id="descricao">${param.descricao}</textarea>
-
-                 <div class = "upload-image">
-                        <label class ="upload-message" for="file"> Choose file</label>
-                        <input class=" upload-buttom-image" type="file" name="file" id="file" value="${param.file}">
-                </div>
+                <textarea class="descricao" type="text" name="descricao" id="descricao"></textarea>
 
                 <div class="buttons">
                     <button type="submit" class="laranja">Salvar</button>
@@ -101,8 +88,7 @@
             </div>
         </div>
     </form>
-
-    <footer class="container-fluid bg-primary-color" id="footer">
+    <footer class="container-fluid bg-primary-color navbar-fixed-bottom" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-12" id="footer-top">

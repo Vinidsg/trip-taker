@@ -1,7 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <%@ page contentType="text/html; charset=UTF-8" %>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -25,14 +26,14 @@
                 <img src="/Images/logo.png" alt=""/>
             </a>
             <button
-                    class="navbar-toggler"
+                    class="navbar-toggler hamburguer"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbar-items"
                     aria-controls="navbar-items"
                     aria-expanded="false"
                     aria-label="Toggle navigation">
-            <i class="bi bi-list"></i>
+            <i class="bi bi-list "></i>
             </button>
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -53,14 +54,14 @@
         </div>
     </nav>
     <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+
+        <form class="modal-dialog" action= "/login">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="loginModalLabel">Insira seu Usuário e Senha</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
                         <div class="mb-3">
                             <label for="username" class="form-label">Usuário:</label>
                             <input type="text" class="form-control" id="username" name="username" required>
@@ -69,14 +70,13 @@
                             <label for="password" class="form-label">Senha:</label>
                             <input type="password" class="form-control" id="password" name="password" required>
                         </div>
-                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary btnFechar" data-bs-dismiss="modal">Fechar</button>
                     <button type="submit" class="btn btn-primary btnEntrar">Entrar</button>
                 </div>
             </div>
-        </div>
+        </form>
     </div>
     <div class="carousel" id="slider-container">
         <div class="carousel slide" id="slider" data-bs-ride="carousel">
@@ -265,7 +265,7 @@
             </div>
         </div>
     </div>
-    <footer class="container-fluid bg-primary-color" id="footer">
+    <footer class="container-fluid bg-primary-color mt-auto" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-12" id="footer-top">
