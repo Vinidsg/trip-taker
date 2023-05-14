@@ -5,10 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1c08c5-afe3-4916-9a78-1ab9bb722a2e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/triptaker/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/triptaker/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/triptaker/servlet/ListTripServlet_gerenciar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Style/gerenciar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/gerenciar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1683850488787-spiderman-into-the-spider-verse-characters-7-4k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1683998754371-ANostalgicwallpaperfromAkiraAnime1988[1920x1080].png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1683999147476-spiderman-into-the-spider-verse-characters-7-4k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1683999197434-jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1683999275091-jpeg(1)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008320550-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008475865-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008611300-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008703847-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008720119-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008733336-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008744062-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008752931-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684008763398-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684009184996-logo-app.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684020019625-2473c02e2ac93f617a28b2b5058bb41d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684020140972-2473c02e2ac93f617a28b2b5058bb41d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684020204519-2473c02e2ac93f617a28b2b5058bb41d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684021147722-2473c02e2ac93f617a28b2b5058bb41d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684022212529-2473c02e2ac93f617a28b2b5058bb41d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027026066-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027062037-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027112154-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027126154-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027141746-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027179294-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027263700-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027275564-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027290354-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027301712-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027312279-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684027324239-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684029690047-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684029995901-praia-gunga.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teste.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
