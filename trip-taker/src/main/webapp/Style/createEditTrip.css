@@ -84,3 +84,20 @@ textarea {
     width: 900px;
     border: 0;
 }
+
+.upload-image {
+  display: flex;
+
+}
+
+.upload-message {
+  margin-right: 10px;
+   display: flex;
+   margin-right: 500px;
+}
+
+.upload-buttom-image {
+  text-align: center;
+  margin: auto;
+    padding-left: 100px;
+}
