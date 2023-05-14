@@ -1,5 +1,9 @@
 C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\java\br\com\triptaker\model\Trip.java
 C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\java\br\com\triptaker\servlet\DeleteTripServlet.java
 C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\java\br\com\triptaker\dao\TripTakerDAO.java
+C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\java\br\com\triptaker\servlet\LoginServlet.java
+C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\java\br\com\triptaker\servlet\LogoutServlet.java
+C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\java\br\com\triptaker\model\User.java
+C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\java\br\com\triptaker\dao\UserDAO.java
 C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\java\br\com\triptaker\servlet\ListTripServlet.java
 C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\java\br\com\triptaker\servlet\CreateTripServlet.java

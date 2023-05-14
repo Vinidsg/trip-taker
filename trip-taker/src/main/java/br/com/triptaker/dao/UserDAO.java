@@ -12,7 +12,7 @@ public class UserDAO {
 
     public boolean verifyCredentials(User user) {
 
-        String SQL = "SELECT * FROM CAR WHERE USERNAME = ?";
+        String SQL = "SELECT * FROM USR WHERE USERNAME = ?";
 
         try {
 

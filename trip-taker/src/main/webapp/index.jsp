@@ -62,7 +62,6 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
                         <div class="mb-3">
                             <label for="username" class="form-label">Usuário:</label>
                             <input type="text" class="form-control" id="username" name="username" required>
@@ -71,7 +70,6 @@
                             <label for="password" class="form-label">Senha:</label>
                             <input type="password" class="form-control" id="password" name="password" required>
                         </div>
-                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary btnFechar" data-bs-dismiss="modal">Fechar</button>
