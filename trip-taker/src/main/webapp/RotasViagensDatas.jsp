@@ -64,81 +64,61 @@
     <div class="titlePage">
         <h1>Rotas, Viagens e Datas</h1>
     </div>
-
+<div class="container-principal">
 <c:forEach var="trip" items="${trips}">
-<div class="sessao-02">
-    <div class="foto_praia_gunga">
-        <a href="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}">
-            <img style="width: 100px" src="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}" alt="...">
-        </a>
-    </div>
 
-    <div class="titulo_foto_praia_do_gunga">
-        <h2>Praia do Gunga - AL</h2>
-    </div>
-
-    <style>
-     border: 1px solid black;
-     border-collapse: collapse;
-     th, td
-     {
-        padding-top: 10px;
-        padding-bottom: 20px;
-        padding-left: 30px;
-        padding-right: 40px;
-     }
-    </style>
-
-    <div class="btnAndTable">
-    <table class="tabela">
-                <tr class="tabela-coluna">
-
-                    <th class="local">Local</th>
-                    <th class="qtdPessoa">Capacidade</th>
-                    <th class="guia">Guia</th>
-                    <th class="valorUnitario">Valor</th>
-                    <th class="dataIda">Ida</th>
-                    <th class="dataVolta">Volta</th>
-                    <th class="descricao">Descricao</th>
-
-
-
-                </tr>
-
-                        <tr class="tabela-coluna-js">
-
-                                <td>${trip.local}</td>
-                                <td>${trip.qtdPessoas}</td>
-                                <td>${trip.guiaResponsavel}</td>
-                                <td>${trip.valorUnitario}</td>
-                                <td>${trip.dataInicio}</td>
-                                <td>${trip.dataFinal}</td>
-                                <td>${trip.descricao}</td>
-
-                        </tr>
-
-
-
-        </table>
-
-       <div class="container-buttons">
-                <div class="btnLogin">
-                    <button class="buttonLogin2">Agendar</button>
+    <div class="col-12 container">
+            <div class="row">
+                <div class="col-12 col-md-5" id="info-banner">
+                       <img style=" width: 500px" src="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}" alt="...">
+                    </a>
                 </div>
+                <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="font-descricao">
+                                <h2 class="title secondary-color">${trip.local}</h2>
+                                <p class="subtitle secondary-color">${trip.descricao}</p>
+                            </div>
+                        </div>
+                        <div class="col-12" id="info-numbers">
+                            <div class="row">
+                                <div class="col-4">
+                                    <h4 class="secondary-color">Data inicio</h4>
+                                    <p class="secondary-color">${trip.dataInicio}</p>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="secondary-color">Data final</h4>
+                                    <p class="secondary-color">${trip.dataFinal}</p>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="secondary-color">Quantidade</h4>
+                                    <p class="secondary-color">${trip.qtdPessoas}</p>
+                                </div>
+                                 <div class="col-4">
+                                   <h4 class="secondary-color">Valor</h4>
+                                   <p class="secondary-color">${trip.valorUnitario}</p>
+                                 </div>
+                                 <div class="col-4">
+                                    <h4  class="secondary-color">Guia</h4>
+                                     <p  class="secondary-color">${trip.guiaResponsavel}</p>
+                                 </div>
 
-            <div class="container-btnDelete">
-                <form action="/delete-trip" method="post">
-                <input type="hidden" id="id" name="id" value="${trip.id}">
-                <button type="submit" class="btnDelete">Deletar</button>
-                </form>
+
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <a href="#" class="btn btn-dark">Agendar</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-       </div>
         </div>
 
-        </div>
-    </div>
+
+
 </c:forEach>
+</div>
 
 
   <footer class="container-fluid bg-primary-color" id="footer">

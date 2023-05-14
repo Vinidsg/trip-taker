@@ -68,6 +68,12 @@
                 <label>Quantidade de Pessoas</label>
                 <input type="number" name="qtdPessoa" id="qtdPessoa" value="${param.qtdPessoa}">
 
+                      <div class = "upload-image">
+                         <label class ="upload-message"for="file"> Choose file</label>
+                          <input class=" upload-buttom-image"type="file" name="file" id="file" value="${param.file}">
+                      </div>
+
+
                 <label>Guia Responsável</label>
                 <input type="text" name="guiaResponsavel" id="guiaResponsavel" value="${param.guiaResponsavel}">
 
@@ -83,8 +89,10 @@
                 <label>Descrição</label>
                 <textarea class="descricao" type="text" name="descricao" id="descricao">${param.descricao}</textarea>
 
-                <label for="file"> Choose file</label>
-                <input type="file" name="file" id="file" value="${param.file}">>
+                 <div class = "upload-image">
+                        <label class ="upload-message" for="file"> Choose file</label>
+                        <input class=" upload-buttom-image" type="file" name="file" id="file" value="${param.file}">
+                </div>
 
                 <div class="buttons">
                     <button type="submit" class="laranja">Salvar</button>
