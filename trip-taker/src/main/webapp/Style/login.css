@@ -1,0 +1,35 @@
+#footer {
+    padding: 1.5em 0.5em;
+}
+
+#footer-top {
+    margin-bottom: 2em;
+}
+
+#footer-top, footer-top i {
+    color: #fff;
+}
+
+.loginBox {
+    margin-top: 100px;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.container.loginBox {
+  margin-top: 150px;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.error-message {
+  color: red;
+}
+
+

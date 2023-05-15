@@ -48,36 +48,11 @@
                     </li>
                 </ul>
                 <div>
-                    <button href="#" class="buttonLogin  btn-primary" id="loginBtn">Login</button>
+                    <button class="buttonLogin  btn-primary" id="loginBtn">Login</button>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-
-        <form class="modal-dialog" action= "/login">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="loginModalLabel">Insira seu Usuário e Senha</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-                </div>
-                <div class="modal-body">
-                        <div class="mb-3">
-                            <label for="username" class="form-label">Usuário:</label>
-                            <input type="text" class="form-control" id="username" name="username" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Senha:</label>
-                            <input type="password" class="form-control" id="password" name="password" required>
-                        </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary btnFechar" data-bs-dismiss="modal">Fechar</button>
-                    <button type="submit" class="btn btn-primary btnEntrar">Entrar</button>
-                </div>
-            </div>
-        </form>
-    </div>
     <div class="carousel" id="slider-container">
         <div class="carousel slide" id="slider" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -290,10 +265,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-      $(function() {
-        $('#loginBtn').click(function() {
-          $('#loginModal').modal('show');
-        });
+      document.getElementById("loginBtn").addEventListener("click", function() {
+        window.location.href = "/login";
       });
     </script>
 </body>

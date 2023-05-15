@@ -55,7 +55,7 @@
                     </li>
                 </ul>
                 <div>
-                    <button href="#" class="buttonLogin  btn-primary" id="loginBtn">Sair</button>
+                    <button class="buttonLogin  btn-primary" id="loginBtn">Sair</button>
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
                 <div class="container-btnDelete">
                     <form action="/delete-trip" method="post">
                         <input type="hidden" id="id" name="id" value="${trip.id}">
-                        <button type="submit" class="btnDelete">Deletar</button>
+                        <button class="btnDelete" type="submit">Deletar</button>
                     </form>
                 </div>
             </a>
@@ -96,5 +96,10 @@
             </div>
         </div>
     </footer>
+    <script>
+      document.getElementById("loginBtn").addEventListener("click", function() {
+        window.location.href = "/logout";
+      });
+    </script>
 </body>
 </html>

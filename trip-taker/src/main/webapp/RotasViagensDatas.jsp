@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
+     <%@ page contentType="text/html; charset=UTF-8" %>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -41,7 +42,7 @@
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="/index.jsp" class="nav-link primary-color"  > Inicio </a>
+                        <a href="/index.jsp" class="nav-link primary-color"  > Início </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link active primary-color" aria-current="page">Rotas</a>
@@ -84,7 +85,7 @@
                         <div class="col-12" id="info-numbers">
                             <div class="row">
                                 <div class="col-4">
-                                    <h4 class="secondary-color">Data inicio</h4>
+                                    <h4 class="secondary-color">Data início</h4>
                                     <p class="secondary-color">${trip.dataInicio}</p>
                                 </div>
                                 <div class="col-4">

@@ -2,6 +2,18 @@
     font-family: 'NotoSans', sans-serif;
 }
 
+.btnDelete {
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 70px;
+    background-color: #ff0000;
+    border: 0px;
+    color: #fff;
+    width: 90px;
+    height: 30px;
+    margin-top: 5px;
+}
+
 .bg-primary-color {
     background-color: #0D1E30;
 }
@@ -132,3 +144,4 @@
     margin-right: 10px; /* Define a margem entre as imagens */
     margin-top: 100px;
 }
+

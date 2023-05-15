@@ -52,7 +52,7 @@ form {
     border-radius: 70px;
     background-color: #D53620;
     border: 0px;
-    color: ffffff;
+    color: #fff;
     width: 133px;
     height: 40px;
 }
@@ -100,4 +100,15 @@ textarea {
   text-align: center;
   margin: auto;
     padding-left: 100px;
+}
+
+.upload-image {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bi-upload {
+    font-size: 18px;
+    padding: 5px;
 }
