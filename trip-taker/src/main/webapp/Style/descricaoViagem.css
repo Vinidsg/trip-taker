@@ -1,0 +1,187 @@
+* {
+    
+}
+
+.bg-primary-color {
+    background-color: #0D1E30;
+}
+
+.bg-secondary-color {
+    background-color: #30C2FE;
+}
+
+.bg-gray-color {
+    background-color: #E6E6E6;
+}
+
+.bg-third-color {
+    background-color: #D53620
+}
+
+.primary-color {
+    color: #0D1E30;
+}
+
+.secondary-color {
+    color: #fff;
+}
+
+.third-color {
+    color: #D53620
+}
+
+/*NAVBAR */
+
+#navbar {
+    padding: 0px 0px;
+}
+
+#navbar a:hover {
+    color: #E6E6E6;
+}
+
+#navbar a.active {
+    border-bottom: 1px solid #fff;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 300px;
+}
+
+#navbar-items button {
+    border-radius: 300px;
+    width: 100px;
+    font-weight: 500;
+    font-size: 1.2em;
+    justify-content: center;
+    display: flex;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+#navbar-items .nav-item {
+    margin: 0 5em;
+}
+
+.navbar-test {
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar-text-title h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0D1E30;
+    color: #fff;
+}
+
+/*Fotos*/
+
+#mini-banners {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Descrição da viagem*/
+.describe-text {
+    margin-top: 50px;
+    display: inline-block;
+    justify-content: center;
+    width: 80%;
+    margin-left: 8%;
+}
+
+/*Tabela de preços*/
+#table-price button{
+    border-radius: 300px;
+    width: 200px;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.text-card {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text-card-2 {
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card-only-text {
+    padding: 10px;
+}
+
+/*Informações do guia*/
+
+#guia-information {
+    margin-bottom: 20px;
+}
+
+#guia-information img {
+    margin-top: 30px;
+    width: 300px;
+}
+
+.price-guia {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Footer top */
+
+#footer {
+    padding: 1em 3em;
+}
+
+#footer-top {
+    margin-bottom: 2em;
+}
+
+#footer-top img {
+    width: 300px;
+}
+
+#social-icons {
+    text-align: center;
+}
+
+#social-icons i{
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#social-icons i:hover {
+    color: #7a7a7a;
+}
+
+#social-icons2 i{
+    margin-right: 1em;
+    font-size: 1.5em;
+}
+
+#img-arrow-icons img{
+    width: 100px;
+    margin-left: 200px;
+}

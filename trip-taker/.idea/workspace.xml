@@ -5,32 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1c08c5-afe3-4916-9a78-1ab9bb722a2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Style/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684116883370-" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684116883371-pix-106.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684116899716-" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684116899722-" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/Arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/guia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/praiadogunga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/praiadogunga1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Images/praiadogunga2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Style/descricaoViagem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/descricaoViagem.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/triptaker/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/triptaker/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/RotasViagensDatas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/RotasViagensDatas.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Style/createEditTrip.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Style/createEditTrip.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Style/gerenciar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Style/gerenciar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/createEditTrip.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/createEditTrip.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/gerenciar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/gerenciar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/teste.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/triptaker/dao/TripTakerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/triptaker/dao/TripTakerDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/triptaker/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/triptaker/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/triptaker/model/Trip.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/triptaker/model/Trip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/triptaker/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/triptaker/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/CreateTripServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/CreateTripServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/DeleteTripServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/DeleteTripServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/ListTripServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/ListTripServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/ListTripServlet_gerenciar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/ListTripServlet_gerenciar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/triptaker/servlet/LogoutServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-14" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-14" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/createEditTrip_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/createEditTrip_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/createEditTrip_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/createEditTrip_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/gerenciar_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/gerenciar_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/gerenciar_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/gerenciar_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" afterDir="false" />
@@ -46,6 +48,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -70,20 +73,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vinic/IdeaProjects/carsoft&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/william/Documentos/Projetos/github/trip-taker/trip-taker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vinic\OneDrive\Documents\GitHub\trip-taker\trip-taker\src\main\webapp" />
@@ -101,8 +110,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680562365910</updated>
+      <workItem from="1684190813777" duration="14000" />
+      <workItem from="1684191357226" duration="1607000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
