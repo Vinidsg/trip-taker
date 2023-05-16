@@ -14,8 +14,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/Style/index.css">
-        <link rel="stylesheet" href="/Style/login.css">
+    <link rel="stylesheet" href="/Style/telaLogin.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
@@ -39,7 +38,7 @@
               <div class="collapse navbar-collapse" id="navbar-items">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                          <a href="#" class="nav-link primary-color" aria-current="page"> Início </a>
+                          <a href="/index.jsp" class="nav-link primary-color" aria-current="page"> Início </a>
                       </li>
                       <li class="nav-item">
                           <a href="/find-all-trips" class="nav-link primary-color">Rotas</a>
@@ -62,11 +61,11 @@
 
           <div class="mb-3">
             <label for="username" class="form-label">Usuário</label>
-            <input type="text" class="form-control" id="username" name="username">
+            <input type="text" class="form-control" id="username" name="username" required>
           </div>
           <div class="mb-3">
             <label for="password" class="form-label">Senha</label>
-            <input type="password" class="form-control" id="password" name="password">
+            <input type="password" class="form-control" id="password" name="password" required>
           </div>
           <button type="submit" class="btn btn-primary btnEntrar">Entrar</button>
         </form>
@@ -95,6 +94,24 @@
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('button[type="submit"]').addEventListener('click', function() {
+          var inputs = document.querySelectorAll('form input[required], form textarea[required]');
+
+          for (var i = 0; i < inputs.length; i++) {
+            if (inputs[i].value.trim() === '') {
+              inputs[i].classList.add('is-invalid');
+            } else {
+              inputs[i].classList.remove('is-invalid');
+            }
+          }
+        });
+      });
+    document.getElementById('arrow-up').addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    </script>
 </body>
 </html>

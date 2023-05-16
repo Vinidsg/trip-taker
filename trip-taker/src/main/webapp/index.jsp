@@ -38,7 +38,7 @@
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active primary-color" aria-current="page"> Início </a>
+                        <a href="/index.jsp" class="nav-link active primary-color" aria-current="page"> Início </a>
                     </li>
                     <li class="nav-item">
                         <a href="/find-all-trips" class="nav-link primary-color">Rotas</a>
@@ -267,6 +267,9 @@
     <script>
       document.getElementById("loginBtn").addEventListener("click", function() {
         window.location.href = "/login";
+      });
+      document.getElementById('arrow-up').addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     </script>
 </body>

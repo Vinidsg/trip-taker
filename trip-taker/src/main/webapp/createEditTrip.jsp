@@ -16,9 +16,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/Style/index.css">
-    <link rel="stylesheet" href="/Style/createEditTrip.css">
-
+    <link rel="stylesheet" href="/Style/create.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -40,61 +38,76 @@
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active primary-color" aria-current="page"> Início </a>
+                        <a href="/index.jsp" class="nav-link primary-color" aria-current="page"> Início </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link primary-color">Rotas</a>
+                        <a href="/find-all-trips" class="nav-link primary-color">Rotas</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link primary-color">Sobre</a>
                     </li>
                 </ul>
                 <div>
-                    <button href="#" class="buttonLogin  btn-primary" id="loginBtn">Login</button>
+                    <button class="buttonLogin  btn-primary" id="loginBtn">Sair</button>
                 </div>
             </div>
         </div>
     </nav>
+    <div class="container tituloPg">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-10">
+          <h2 class="text-center">Cadastro de Viagem/Rota</h2>
+        </div>
+      </div>
+    </div>
 
     <form action="/create-trip" method="post" enctype="multipart/form-data">
-        <div class="titlePage">
-            <h1>Criar/ Editar Rotas</h1>
-        </div>
-        <div class="formularioCER">
-            <div>
-                <input type="hidden" id="id" name="id" value="${param.id}">
-                <label>Local</label>
-                <input type="text" name="local" id="local" value="${param.local}">
-
-                <label>Quantidade de Pessoas</label>
-                <input type="number" name="qtdPessoa" id="qtdPessoa" value="${param.qtdPessoa}">
-
-                <label>Guia Responsável</label>
-                <input type="text" name="guiaResponsavel" id="guiaResponsavel" value="${param.guiaResponsavel}">
-
-                <label>Valor Unitário</label>
-                <input type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario" value="${param.valorUnitario}">
-
-                <label>Data Início</label>
-                <input type="date" name="dtInicio" id="dtInicio" required placeholder="DD/MM/AAAA"  mask="99/99/9999" value="${param.dataInicio}">
-
-                <label>Data Final</label>
-                <input type="date" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999" value="${param.dataFinal}">
-
-                <label>Descrição</label>
-                <textarea class="descricao" type="text" name="descricao" id="descricao">${param.descricao}</textarea>
-
-                 <div class = "upload-image">
-                        <i class="bi bi-upload"></i>
-                        <input class="form-control" type="file" name="file" id="file" value="${param.file}">
-                 </div>
-
-                <div class="buttons">
-                    <button type="submit" class="laranja">Salvar</button>
-                    <button class="azul">Cancelar</button>
-                </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-8 col-sm-10 formulario">
+            <input type="hidden" id="id" name="id" value="${param.id}">
+            <div class="mb-3">
+              <label for="local" class="form-label">Local</label>
+              <input type="text" name="local" id="local" class="form-control" value="${param.local}" required>
             </div>
+            <div class="mb-3">
+              <label for="qtdPessoa" class="form-label">Quantidade de Pessoas</label>
+              <input type="number" name="qtdPessoa" id="qtdPessoa" class="form-control" value="${param.qtdPessoa}" required>
+            </div>
+            <div class="mb-3">
+              <label for="guiaResponsavel" class="form-label">Guia Responsável</label>
+              <input type="text" name="guiaResponsavel" id="guiaResponsavel" class="form-control" value="${param.guiaResponsavel}" required>
+            </div>
+            <div class="mb-3">
+              <label for="vlrUnitario" class="form-label">Valor Unitário</label>
+              <input type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario" class="form-control" value="${param.valorUnitario}" required>
+            </div>
+            <div class="mb-3">
+              <label for="dtInicio" class="form-label">Data Início</label>
+              <input type="date" name="dtInicio" id="dtInicio" class="form-control" placeholder="DD/MM/AAAA" mask="99/99/9999" value="${param.dataInicio}" required>
+            </div>
+            <div class="mb-3">
+              <label for="dtFinal" class="form-label">Data Final</label>
+              <input type="date" name="dtFinal" id="dtFinal" class="form-control" required placeholder="DD/MM/AAAA" mask="99/99/9999" value="${param.dataFinal}" required>
+            </div>
+            <div class="mb-3">
+              <label for="descricao" class="form-label">Descrição</label>
+              <textarea required class="form-control descricao" name="descricao" id="descricao" required>  ${param.descricao} </textarea>
+            </div>
+            <div class="mb-3 upload-image">
+              <label for="file" class="form-label">Upload de Imagem</label>
+              <div class="input-group">
+                <input type="file" class="form-control" name="file" id="file" value="${param.file}">
+                <span class="input-group-text"><i class="bi bi-upload"></i></span>
+              </div>
+            </div>
+            <div class="mb-3 text-center">
+              <button type="submit" class="btn btn-primary btnSalvar">Salvar</button>
+              <button class="btn btn-secondary btnCancelar">Cancelar</button>
+            </div>
+          </div>
         </div>
+      </div>
     </form>
 
     <footer class="container-fluid bg-primary-color" id="footer">
@@ -122,11 +135,26 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-      $(function() {
-        $('#loginBtn').click(function() {
-          $('#loginModal').modal('show');
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('button[type="submit"]').addEventListener('click', function() {
+          var inputs = document.querySelectorAll('form input[required], form textarea[required]');
+
+          for (var i = 0; i < inputs.length; i++) {
+            if (inputs[i].value.trim() === '') {
+              inputs[i].classList.add('is-invalid');
+            } else {
+              inputs[i].classList.remove('is-invalid');
+            }
+          }
         });
       });
+      document.getElementById("loginBtn").addEventListener("click", function() {
+              window.location.href = "/logout";
+            });
+      document.getElementById('arrow-up').addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
     </script>
+
 </body>
 </html>

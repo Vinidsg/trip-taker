@@ -43,28 +43,6 @@
     transition: 0.5s;
 }
 
-.btnEntrar {
-    padding: 0.3 0.8em;
-    background-color: #D53620;
-    border: 0;
-}
-
-.btnEntrar:hover {
-    background-color: #D3513F;
-}
-
-.btnFechar {
-    padding: 0.3 0.8em;
-    background-color: #0D1E30;
-    border: 0;
-}
-
-.btnFechar:hover {
-    background-color: #1E3146;
-}
-
-
-
 #navbar a.active {
     border-bottom: 1px solid #E8E7E4;
     color: #FFF;
@@ -89,8 +67,6 @@
     width: 100%;
 
 }
-
-
 
 #navbar-items .nav-item {
     margin: 0 1em;

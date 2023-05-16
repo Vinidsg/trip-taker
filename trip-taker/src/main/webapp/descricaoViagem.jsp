@@ -38,10 +38,10 @@
             </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a href="#" class="nav-link active secondary-color" aria-current="page">Inicio</a>
+                    <a href="/index.jsp" class="nav-link active secondary-color" aria-current="page">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link secondary-color">Rotas</a>
+                    <a href="/find-all-trips" class="nav-link secondary-color">Rotas</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link secondary-color">Sobre</a>
@@ -200,5 +200,12 @@
         </div>
     </div>
 </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.getElementById('arrow-up').addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script>
 </body>
 </html>

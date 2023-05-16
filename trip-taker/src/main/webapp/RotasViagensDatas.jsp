@@ -45,7 +45,7 @@
                         <a href="/index.jsp" class="nav-link primary-color"  > Início </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link active primary-color" aria-current="page">Rotas</a>
+                        <a href="/find-all-trips" class="nav-link active primary-color" aria-current="page">Rotas</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link primary-color">Sobre</a>
@@ -144,5 +144,15 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+          document.getElementById("loginBtn").addEventListener("click", function() {
+            window.location.href = "/login";
+          });
+        document.getElementById('arrow-up').addEventListener('click', function() {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        </script>
 </body>
 </html>
