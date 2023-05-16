@@ -70,10 +70,12 @@
 
     <div class="col-12 container">
             <div class="row">
-                <div class="col-12 col-md-5" id="info-banner">
-                       <img style=" width: 500px" src="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}" alt="...">
-                    </a>
-                </div>
+
+                            <div class="col-12 col-md-5 hover-zoomin" id="info-banner">
+                                   <img class=" img-thumbnail" width="500" height="450" src="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}" alt="...">
+                                </a>
+                            </div>
+
                 <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
                     <div class="row">
                         <div class="col-12">
@@ -109,7 +111,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="#" class="btn btn-dark">Agendar</a>
+                            <a href="#" class="btn btn-dark">Detalhes</a>
                         </div>
                     </div>
                 </div>
