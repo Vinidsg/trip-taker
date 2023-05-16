@@ -3,7 +3,7 @@
 
 .row
 {
---bs-gutter-x: 1rem;
+--bs-gutter-x: 0rem;
 }
 
 .btn {
@@ -16,6 +16,8 @@
 #info-content {
     margin-bottom: 5em;
     padding: 5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 #info-numbers {
@@ -98,6 +100,23 @@ margin-top:100px;
 }
 
 
+
+.hover-zoomin img {
+
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    .hover-zoomin:hover img {
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 
 
 
