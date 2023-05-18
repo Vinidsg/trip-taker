@@ -114,7 +114,7 @@ public class TripTakerDAO {
         }
     }
     public void updateTrip(Trip Trip) {
-        String SQL = "UPDATE CRIAR_EDITAR_ROTAS SET LOCAL = ?, QTD_PESSOA = ?, GUIA_RESPONSAVEL = ?, VALOR_UNITARIO = ?, DATA_INICIO = ?, DATA_FINAL = ?, DESCRICAO = ? WHERE ID = ?";
+        String SQL = "UPDATE CRIAR_EDITAR_ROTAS SET LOCAL = ?, QTD_PESSOA = ?, GUIA_RESPONSAVEL = ?, VALOR_UNITARIO = ?, DATA_INICIO = ?, DATA_FINAL = ?, DESCRICAO = ?, IMAGE = ? WHERE ID = ?";
         try {
 
             Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
@@ -128,7 +128,8 @@ public class TripTakerDAO {
             preparedStatement.setString(5, Trip.getDataInicio());
             preparedStatement.setString(6, Trip.getDataFinal());
             preparedStatement.setString(7, Trip.getDescricao());
-            preparedStatement.setString(8, Trip.getId());
+            preparedStatement.setString(8, Trip.getImage());
+            preparedStatement.setString(9, Trip.getId());
 
             preparedStatement.execute();
 

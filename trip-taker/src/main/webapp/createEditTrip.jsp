@@ -94,10 +94,15 @@
               <label for="descricao" class="form-label">Descrição</label>
               <textarea required class="form-control descricao" name="descricao" id="descricao" required>  ${param.descricao} </textarea>
             </div>
+
+              <div class="image">
+                  <img class="img-fluid" src="${param.image}" alt="Imagem">
+              </div>
+
             <div class="mb-3 upload-image">
               <label for="file" class="form-label">Upload de Imagem</label>
               <div class="input-group">
-                <input type="file" class="form-control" name="file" id="file" value="${param.file}">
+                <input type="file" class="form-control" name="file" id="file">
                 <span class="input-group-text"><i class="bi bi-upload"></i></span>
               </div>
             </div>
