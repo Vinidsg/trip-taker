@@ -23,11 +23,28 @@ import static org.apache.commons.fileupload.FileUploadBase.isMultipartContent;
 @WebServlet("/create-trip")
 public class CreateTripServlet extends HttpServlet {
     @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        String username = (String) request.getSession().getAttribute("username");
+        if (username == null) {
+            response.sendRedirect("/login");
+            return;
+        }
+
+        response.sendError(HttpServletResponse.SC_FORBIDDEN, "Acesso proibido");
+    }
+
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String username = (String) request.getSession().getAttribute("username");
+        if (username == null) {
+            response.sendRedirect("/login");
+            return;
+        }
 
         Map<String, String> parameters = uploadImage(request);
 
-        String  id = parameters.get("id");
+        String id = parameters.get("id");
         String local = parameters.get("local");
         int qtdPessoa = Integer.parseInt(parameters.get("qtdPessoa"));
         String guiaResponsavel = parameters.get("guiaResponsavel");
@@ -39,7 +56,7 @@ public class CreateTripServlet extends HttpServlet {
 
         Trip trip = new Trip(id, local, qtdPessoa, guiaResponsavel, vlrUnitario, dtInicio, dtFinal, descricao, image);
 
-        if (id.isEmpty()){
+        if (id.isEmpty()) {
             new TripTakerDAO().createTrip(trip);
         } else {
             new TripTakerDAO().updateTrip(trip);
@@ -51,7 +68,7 @@ public class CreateTripServlet extends HttpServlet {
     private Map<String, String> uploadImage(HttpServletRequest httpServletRequest) {
         Map<String, String> requestParameters = new HashMap<>();
 
-        if(isMultipartContent(httpServletRequest)){
+        if (isMultipartContent(httpServletRequest)) {
             try {
                 DiskFileItemFactory diskFileItemFactory = new DiskFileItemFactory();
 
@@ -78,6 +95,7 @@ public class CreateTripServlet extends HttpServlet {
             requestParameters.put("image", "img/".concat(fileName));
         }
     }
+
     private String processUploadFile(FileItem fileItem) throws Exception {
         Long currentTime = new Date().getTime();
         String fileName = currentTime.toString().concat("-").concat(fileItem.getName().replace(" ", ""));

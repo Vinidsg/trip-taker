@@ -61,17 +61,13 @@
         </div>
     </nav>
     <div class="container">
-        <div class="containerBTN">
-            <a href="createEditTrip.jsp">
-                <button class="btnCriar" type="submit">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
-                        <rect x="10" y="0" width="5" height="50" fill="white"/>
-                        <rect x="0" y="10" width="50" height="5" fill="white"/>
-                    </svg>
+<div class="containerBTN">
+  <a href="createEditTrip.jsp" class="btn btn-secondary btnCriar">
+       <i class="bi bi-plus"></i>
+  </a>
+</div>
 
-                </button>
-            </a>
-        </div>
+
         <div class="row imagem">
             <c:forEach var="trip" items="${trips}">
                 <div class="col-md-4">

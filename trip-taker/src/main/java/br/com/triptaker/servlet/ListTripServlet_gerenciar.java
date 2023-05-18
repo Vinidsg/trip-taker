@@ -12,14 +12,19 @@ import java.io.IOException;
 import java.util.List;
 
 @WebServlet("/getImage")
-public class ListTripServlet_gerenciar extends HttpServlet{
+public class ListTripServlet_gerenciar extends HttpServlet {
 
-        protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-            List<Trip> trips = new TripTakerDAO().findAllTrips();
-
-            req.setAttribute("trips", trips);
-
-            req.getRequestDispatcher("gerenciar.jsp").forward(req, resp);
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String username = (String) req.getSession().getAttribute("username");
+        if (username == null) {
+            resp.sendRedirect("/login");
+            return;
         }
+
+        List<Trip> trips = new TripTakerDAO().findAllTrips();
+
+        req.setAttribute("trips", trips);
+
+        req.getRequestDispatcher("gerenciar.jsp").forward(req, resp);
+    }
 }
