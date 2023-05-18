@@ -9,6 +9,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/webapp/RotasViagensDatas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/RotasViagensDatas.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Style/RotasViagensDatas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Style/RotasViagensDatas.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-16" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

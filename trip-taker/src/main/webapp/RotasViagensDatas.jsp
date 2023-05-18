@@ -59,7 +59,7 @@
     </nav>
 
 <body>
-    <link rel="stylesheet" type="text/css" href="RotasViagensDatas.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./RotasViagensDatas.css" media="screen" />
 
 
     <div class="titlePage">
@@ -68,59 +68,62 @@
 <div class="container-principal">
 <c:forEach var="trip" items="${trips}">
 
+
     <div class="col-12 container">
-            <div class="row">
-
-                            <div class="col-12 col-md-5 hover-zoomin" id="info-banner">
-                                   <img class=" img-thumbnail" width="500" height="450" src="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}" alt="...">
-                                </a>
-                            </div>
-
-                <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="font-descricao">
-                                <h2 class="title secondary-color">${trip.local}</h2>
-                                <p class="subtitle secondary-color">${trip.descricao}</p>
-                            </div>
+        <div class="row">
+            <div class="col-12 col-md-5 hover-zoomin" id="info-banner" class="image-fluid" >
+                <img  class="img-thumbnail" width="400" height="450" src="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}" alt="...">
+            </div>
+            <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="font-descricao">
+                            <h2 class="title secondary-color">${trip.local}</h2>
+                            <p class="subtitle secondary-color">${trip.descricao}</p>
                         </div>
-                        <div class="col-12" id="info-numbers">
-                            <div class="row">
-                                <div class="col-4">
-                                    <h4 class="secondary-color">Data início</h4>
-                                    <p class="secondary-color">${trip.dataInicio}</p>
-                                </div>
-                                <div class="col-4">
-                                    <h4 class="secondary-color">Data final</h4>
-                                    <p class="secondary-color">${trip.dataFinal}</p>
-                                </div>
-                                <div class="col-4">
-                                    <h4 class="secondary-color">Quantidade</h4>
-                                    <p class="secondary-color">${trip.qtdPessoas}</p>
-                                </div>
-                                 <div class="col-4">
-                                   <h4 class="secondary-color">Valor</h4>
-                                   <p class="secondary-color">${trip.valorUnitario}</p>
-                                 </div>
-                                 <div class="col-4">
-                                    <h4  class="secondary-color">Guia</h4>
-                                     <p  class="secondary-color">${trip.guiaResponsavel}</p>
-                                 </div>
-
-
+                    </div>
+                    <div class="col-12" id="info-numbers">
+                        <div class="row">
+                            <div class="col-4">
+                                <h4 class="secondary-color"><b>Data início</b></h4>
+                                <p class="secondary-color">${trip.dataInicio}</p>
+                            </div>
+                            <div class="col-4">
+                                <h4 class="secondary-color"><b>Data final</b></h4>
+                                <p class="secondary-color">${trip.dataFinal}</p>
+                            </div>
+                            <div class="col-4">
+                                <h4 class="secondary-color"><b>Quantidade</b></h4>
+                                <p class="secondary-color">         ${trip.qtdPessoas}</p>
+                            </div>
+                            <div class="col-4">
+                                <h4 class="secondary-color" margin-left="10px"><b>Valor</b></h4>
+                                <p class="secondary-color">${trip.valorUnitario}</p>
+                            </div>
+                            <div class="col-4">
+                                <h4 class="secondary-color"><b>Guia</b></h4>
+                                <p class="secondary-color">${trip.guiaResponsavel}</p>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <a href="#" class="btn btn-dark">Detalhes</a>
-                        </div>
+                    </div>
+                    <div class="col-12">
+                        <a href="#" class="btn btn-dark">Detalhes</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="col-12 container">
+        <div class="row divider-row">
+            <div class="col-12">
 
 
-
+            </div>
+        </div>
+    </div>
 </c:forEach>
+
+
 </div>
 
 
