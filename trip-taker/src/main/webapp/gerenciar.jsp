@@ -60,18 +60,35 @@
             </div>
         </div>
     </nav>
-    <div class="imagens">
-        <c:forEach var="trip" items="${trips}">
-            <a href="/createEditTrip.jsp?id=${trip.id}&local=${trip.local}&guiaResponsavel=${trip.guiaResponsavel}&qtdPessoa=${trip.qtdPessoas}&valorUnitario=${trip.valorUnitario}&dataInicio=${trip.dataInicio}&dataFinal=${trip.dataFinal}&descricao=${trip.descricao}">
-                <img style="width: 300px" src="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}">
-                <div class="container-btnDelete">
-                    <form action="/delete-trip" method="post">
-                        <input type="hidden" id="id" name="id" value="${trip.id}">
-                        <button class="btnDelete" type="submit">Deletar</button>
-                    </form>
-                </div>
+    <div class="container">
+        <div class="containerBTN">
+            <a href="createEditTrip.jsp">
+                <button class="btnCriar" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                        <rect x="10" y="0" width="5" height="50" fill="white"/>
+                        <rect x="0" y="10" width="50" height="5" fill="white"/>
+                    </svg>
+
+                </button>
             </a>
-        </c:forEach>
+        </div>
+        <div class="row imagem">
+            <c:forEach var="trip" items="${trips}">
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <a href="/createEditTrip.jsp?id=${trip.id}&local=${trip.local}&guiaResponsavel=${trip.guiaResponsavel}&qtdPessoa=${trip.qtdPessoas}&valorUnitario=${trip.valorUnitario}&dataInicio=${trip.dataInicio}&dataFinal=${trip.dataFinal}&descricao=${trip.descricao}&image=${trip.image}">
+                            <img class="card-img-top" src="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}" alt="Imagem da Viagem">
+                        </a>
+                        <div class="card-body">
+                            <form action="/delete-trip" method="post">
+                                <input type="hidden" id="id" name="id" value="${trip.id}">
+                                <button class="btn btn-danger" type="submit">Deletar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </c:forEach>
+        </div>
     </div>
 
     <footer class="container-fluid bg-primary-color mt-auto" id="footer">

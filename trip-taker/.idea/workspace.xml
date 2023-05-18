@@ -5,10 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1c08c5-afe3-4916-9a78-1ab9bb722a2e" name="Changes" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684369626354-ANostalgicwallpaperfromAkiraAnime1988[1920x1080].png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684369727965-ANostalgicwallpaperfromAkiraAnime1988[1920x1080].png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684370040790-jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684370301687-ANostalgicwallpaperfromAkiraAnime1988[1920x1080].png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684370653938-Firefox_wallpaper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684370779270-spiderman-into-the-spider-verse-characters-7-4k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684370798994-jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/triptaker/dao/TripTakerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/triptaker/dao/TripTakerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Style/gerenciar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Style/gerenciar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/createEditTrip.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/createEditTrip.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/gerenciar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/gerenciar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-16" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/createEditTrip_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/createEditTrip_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/createEditTrip_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/createEditTrip_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/gerenciar_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/gerenciar_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/gerenciar_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/gerenciar_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/RotasViagensDatas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/RotasViagensDatas.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Style/RotasViagensDatas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Style/RotasViagensDatas.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-16" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-16" afterDir="false" />
+>>>>>>> main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +75,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+<<<<<<< HEAD
+    &quot;last_opened_file_path&quot;: &quot;/home/vinicius/Documentos/Estudos/faculdade/PI/teste/trip-taker/trip-taker&quot;,
+=======
     &quot;last_opened_file_path&quot;: &quot;C:/Users/vinic/OneDrive/Documents/GitHub/trip-taker/trip-taker/src/main/webapp/Style&quot;,
+>>>>>>> main
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -80,6 +113,9 @@
       <updated>1680562365910</updated>
       <workItem from="1684190813777" duration="14000" />
       <workItem from="1684191357226" duration="1980000" />
+      <workItem from="1684261436115" duration="681000" />
+      <workItem from="1684275329225" duration="72000" />
+      <workItem from="1684368949188" duration="2008000" />
     </task>
     <servers />
   </component>
