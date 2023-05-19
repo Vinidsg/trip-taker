@@ -44,7 +44,7 @@
                           <a href="/find-all-trips" class="nav-link primary-color">Rotas</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#" class="nav-link primary-color">Sobre</a>
+                          <a href="/Sobre.jsp" class="nav-link primary-color">Sobre</a>
                       </li>
                   </ul>
                   <div>

@@ -48,7 +48,7 @@
                         <a href="/find-all-trips" class="nav-link active primary-color" aria-current="page">Rotas</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link primary-color">Sobre</a>
+                        <a href="/Sobre.jsp" class="nav-link primary-color">Sobre</a>
                     </li>
                 </ul>
                     <div>
@@ -87,23 +87,23 @@
                         <div class="col-12" id="info-numbers">
                             <div class="row">
                                 <div class="col-4">
-                                    <h4 class="secondary-color">Data início</h4>
+                                    <h4 class="secondary-color"><b>Data início</b></h4>
                                     <p class="secondary-color">${trip.dataInicio}</p>
                                 </div>
                                 <div class="col-4">
-                                    <h4 class="secondary-color">Data final</h4>
+                                    <h4 class="secondary-color"><b>Data final</b></h4>
                                     <p class="secondary-color">${trip.dataFinal}</p>
                                 </div>
                                 <div class="col-4">
-                                    <h4 class="secondary-color">Quantidade</h4>
+                                    <h4 class="secondary-color"><b>Quantidade</b></h4>
                                     <p class="secondary-color">${trip.qtdPessoas}</p>
                                 </div>
                                  <div class="col-4">
-                                   <h4 class="secondary-color">Valor</h4>
+                                   <h4 class="secondary-color"><b>Valor</b></h4>
                                    <p class="secondary-color">${trip.valorUnitario}</p>
                                  </div>
                                  <div class="col-4">
-                                    <h4  class="secondary-color">Guia</h4>
+                                    <h4  class="secondary-color"><b>Guia</b></h4>
                                      <p  class="secondary-color">${trip.guiaResponsavel}</p>
                                  </div>
 
@@ -111,7 +111,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="#" class="btn btn-dark">Detalhes</a>
+                            <a href="#" class="btn btn-dark"><b>Detalhes</b></a>
                         </div>
                     </div>
                 </div>
