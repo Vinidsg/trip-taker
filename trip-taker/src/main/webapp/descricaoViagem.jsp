@@ -5,11 +5,12 @@
   Time: 19:59
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <head>
     <meta charset="UTF-8">
+    <%@ page contentType="text/html; charset=UTF-8" %>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descrição da Viagem</title>
@@ -24,149 +25,114 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <!-- CSS do projeto -->
     <link rel="stylesheet" href="/Style/descricaoViagem.css">
+    <link rel="stylesheet" href="/Style/index.css">
 </head>
 <body>
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
-    <div class="container py-3 nav flex-column">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-list"></i>
+    <div class="container py-3">
+        <a href="#" class="navbar-brand primary-color">
+            <img src="/Images/logo.png" alt=""/>
+        </a>
+        <button
+                class="navbar-toggler hamburguer"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar-items"
+                aria-controls="navbar-items"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <i class="bi bi-list "></i>
         </button>
         <div class="collapse navbar-collapse" id="navbar-items">
-            <a href="#" class="navbar-brand secondary-color">
-                <img src="/Images/logo2.png" alt="Logo Trip Taker">
-            </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a href="#" class="nav-link active secondary-color" aria-current="page">Inicio</a>
+                    <a href="#" class="nav-link primary-color" aria-current="page"> Início </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link secondary-color">Rotas</a>
+                    <a href="/find-all-trips" class="nav-link primary-color">Rotas</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link secondary-color">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <button href="#" class="nav-link primary-color">Login</button>
+                    <a href="#" class="nav-link primary-color">Sobre</a>
                 </li>
             </ul>
-        </div>
-        <div class="navbar-text-title">
-            <h2>Praia do Gunga - AL</h2>
+            <div>
+                <button class="buttonLogin  btn-primary" id="loginBtn">Login</button>
+            </div>
         </div>
     </div>
 </nav>
-<!--Fotos-->
-<div class="col-12 col-md-10 offset-md-1" id="mini-banners">
-    <div class="row">
-        <div class="col-12 col-md-4">
-            <div class="card text-center">
-                <div class="card-body">
-                    <img src="/Images/praiadogunga.png" alt="praiadogunga" class="card-img">
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-md-4">
-            <div class="card text-center">
-                <div class="card-body">
-                    <img src="/Images/praiadogunga1.png" alt="praiadogunga" class="card-img">
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-md-4">
-            <div class="card text-center">
-                <div class="card-body">
-                    <img src="/Images/praiadogunga2.png" alt="praiadogunga" class="card-img">
-                </div>
-            </div>
-        </div>
-    </div>
+
+<div class="image">
+    <img class="img-fluid" src="${pageContext.request.contextPath} ${param.image}" alt="Imagem">
 </div>
 
-<!--Descrição da viagem-->
-<div class="describe-text">
-    <h5>Descrição:</h5>
-    <p>A Praia do Gunga está localizada a 20 milhas ao sul de Maceió, Alagoas.
-        É considerada uma das praias mais bonitas do Brasil. A praia é cercada por coqueiros e fica bem entre o Oceano Atlântico e a Lagoa do Roteiro.
-        Esta posição garante uma cor única do oceano ao redor da praia.</p>
+
+<!--Fotos & Descrição da viagem-->
+<div class="imageBanner-dv card">
+
+
+
+    </div>
+    <div class="card-body describe-text">
+        <h5>Descrição:</h5>
+        <p class="card-text">A Praia do Gunga está localizada a 20 milhas ao sul de Maceió, Alagoas.
+            É considerada uma das praias mais bonitas do Brasil. A praia é cercada por coqueiros e fica bem entre o Oceano Atlântico e a Lagoa do Roteiro.
+            Esta posição garante uma cor única do oceano ao redor da praia.</p>
+    </div>
+
+
 </div>
 
 <!--Tabela de preços -->
 <div class="container" id="table-price">
     <div class="row align-items-start">
-        <div class="col card text-card card-only-text">
-            01/03/2023
+        <div class="col card text-card-2 card-only-text">
+            Data Início
         </div>
-        <div class="col card text-card card-only-text">
-            03 dias
+        <div class="col card text-card-2 card-only-text">
+            Data Final
         </div>
-        <div class="col card text-card card-only-text">
-            15 pessoas
-        </div>
-        <div class="col card text-card">
-            <button href="#" class="nav-link bg-third-color secondary-color">Reservar</button>
+        <div class="col card text-card-2 card-only-text">
+            Quantidade de pesssoas
         </div>
     </div>
     <div class="row align-items-start">
-        <div class="col card text-card-2 card-only-text">
-            03/03/2023
+        <div class="col card text-card card-only-text">
+            <label type="date" name="dtInicio" id="dtInicio" required placeholder="DD/MM/AAAA"  mask="99/99/9999">${param.dataInicio}</label>
         </div>
-        <div class="col card text-card-2 card-only-text">
-            03 dias
+        <div class="col card text-card card-only-text">
+            <label type="date" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999">${param.dataFinal}</label>
         </div>
-        <div class="col card text-card-2 card-only-text">
-            15 pessoas
-        </div>
-        <div class="col card text-card-2">
-            <button href="#" class="nav-link bg-third-color secondary-color">Reservar</button>
-        </div>
-    </div>
-    <div class="row align-items-start">
-        <div class="col card text-card-2 card-only-text">
-            15/03/2023
-        </div>
-        <div class="col card text-card-2 card-only-text">
-            03 dias
-        </div>
-        <div class="col card text-card-2 card-only-text">
-            15 pessoas
-        </div>
-        <div class="col card text-card-2">
-            <button href="#" class="nav-link bg-third-color secondary-color">Reservar</button>
+        <div class="col card text-card card-only-text">
+            <label>Quantidade de Pessoas</label>
+            <label type="number" name="qtdPessoa" id="qtdPessoa">${param.qtdPessoa}</label>
+
         </div>
     </div>
-    <div class="row align-items-start">
+
+    <div class="row align-items-start guia-information">
         <div class="col card text-card-2 card-only-text">
-            15/04/2023
+            <div class="col">
+                <label>Guia Responsável</label>
+                <label type="text" name="guiaResponsavel" id="guiaResponsavel">${param.guiaResponsavel}</label>
+        </div>
         </div>
         <div class="col card text-card-2 card-only-text">
-            03 dias
+            <div class="col bg-primary-color-div secondary-color-dv price-guia">
+                <label>Valor Unitário</label>
+                <label type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario"> ${param.valorUnitario} </label>
+            </div>
         </div>
         <div class="col card text-card-2 card-only-text">
-            15 pessoas
-        </div>
-        <div class="col card text-card-2">
-            <button href="#" class="nav-link bg-third-color secondary-color">Reservar</button>
+                <button href="#" class="nav-link bg-third-color-dv secondary-color-dv">Reservar</button>
+            </div>
         </div>
     </div>
+
 </div>
 
-<!--Informações do guia-->
-
-<div class="container" id="guia-information">
-    <div class="row align-items-start">
-        <div class="col">
-            <img src="/Images/guia.png" alt="guia">
-        </div>
-        <div class="col">
-        </div>
-        <div class="col">
-        </div>
-        <div class="col bg-primary-color secondary-color price-guia">
-            R$500,00
-        </div>
-    </div>
-</div>
+<!-- Footer -->
 
 <footer class="container-fluid bg-primary-color secondary-color" id="footer">
     <div class="container">

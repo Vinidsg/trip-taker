@@ -2,31 +2,31 @@
     
 }
 
-.bg-primary-color {
+.bg-primary-color-dv {
     background-color: #0D1E30;
 }
 
-.bg-secondary-color {
+.bg-secondary-color-dv {
     background-color: #30C2FE;
 }
 
-.bg-gray-color {
+.bg-gray-color-dv {
     background-color: #E6E6E6;
 }
 
-.bg-third-color {
+.bg-third-color-dv {
     background-color: #D53620
 }
 
-.primary-color {
+.primary-color-dv {
     color: #0D1E30;
 }
 
-.secondary-color {
+.secondary-color-dv {
     color: #fff;
 }
 
-.third-color {
+.third-color-dv {
     color: #D53620
 }
 
@@ -88,10 +88,13 @@
 
 /*Fotos*/
 
-#mini-banners {
-    margin-top: 200px;
+.imageBanner-dv {
+    border-color: #D53620;
+    background-color: #D53620;
+    margin-top: 600px;
     display: flex;
     justify-content: center;
+    width: 50%;
 }
 
 /*Descrição da viagem*/
@@ -99,6 +102,7 @@
     margin-top: 50px;
     display: inline-block;
     justify-content: center;
+    background-color: #D53620;
     width: 80%;
     margin-left: 8%;
 }
