@@ -47,17 +47,14 @@
         <div class="collapse navbar-collapse" id="navbar-items">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-<<<<<<< HEAD
-                    <a href="/index.jsp" class="nav-link active secondary-color" aria-current="page">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="/find-all-trips" class="nav-link secondary-color">Rotas</a>
-=======
-                    <a href="#" class="nav-link primary-color" aria-current="page"> Início </a>
+                    <a href="/index.jsp" class="nav-link primary-color" aria-current="page">Inicio</a>
                 </li>
                 <li class="nav-item">
                     <a href="/find-all-trips" class="nav-link primary-color">Rotas</a>
->>>>>>> descricaoviagem
+                </li>
+                <li class="nav-item">
+                    <a href="/find-all-trips" class="nav-link primary-color">Rotas</a>
+
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link primary-color">Sobre</a>
@@ -70,68 +67,54 @@
     </div>
 </nav>
 
-<div class="image">
-    <img class="img-fluid" src="${pageContext.request.contextPath} ${param.image}" alt="Imagem">
-</div>
-
-
 <!--Fotos & Descrição da viagem-->
-<div class="imageBanner-dv card">
 
-
-
+<div class="container text-center img-describe">
+    <div class="row">
+        <div class="col">
+            <img src="${pageContext.request.contextPath} ${param.image}" class="mx-auto d-block" alt="Imagem">
+            <p class="mt-3">A Praia do Gunga está localizada a 20 milhas ao sul de Maceió, Alagoas.
+                É considerada uma das praias mais bonitas do Brasil. A praia é cercada por coqueiros e fica bem entre o Oceano Atlântico e a Lagoa do Roteiro.
+                Esta posição garante uma cor única do oceano ao redor da praia.</p>
+        </div>
     </div>
-    <div class="card-body describe-text">
-        <h5>Descrição:</h5>
-        <p class="card-text">A Praia do Gunga está localizada a 20 milhas ao sul de Maceió, Alagoas.
-            É considerada uma das praias mais bonitas do Brasil. A praia é cercada por coqueiros e fica bem entre o Oceano Atlântico e a Lagoa do Roteiro.
-            Esta posição garante uma cor única do oceano ao redor da praia.</p>
-    </div>
-
-
 </div>
 
 <!--Tabela de preços -->
 <div class="container" id="table-price">
     <div class="row align-items-start">
-        <div class="col card text-card-2 card-only-text">
+        <div class="col card text-card-2 card-only-text border-transp">
+            Guia responsável
+        </div>
+        <div class="col card text-card-2 card-only-text border-transp">
             Data Início
         </div>
-        <div class="col card text-card-2 card-only-text">
+        <div class="col card text-card-2 card-only-text border-transp">
             Data Final
         </div>
-        <div class="col card text-card-2 card-only-text">
+        <div class="col card text-card-2 card-only-text border-transp">
             Quantidade de pesssoas
         </div>
     </div>
     <div class="row align-items-start">
-        <div class="col card text-card card-only-text">
+        <div class="col card text-card-2 card-only-text border-transp">
+            <label type="text" name="guiaResponsavel">${param.guiaResponsavel}</label>
+        </div>
+        <div class="col card text-card-2 card-only-text border-transp">
             <label type="date" name="dtInicio" id="dtInicio" required placeholder="DD/MM/AAAA"  mask="99/99/9999">${param.dataInicio}</label>
         </div>
-        <div class="col card text-card card-only-text">
+        <div class="col card text-card-2 card-only-text border-transp">
             <label type="date" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999">${param.dataFinal}</label>
         </div>
-        <div class="col card text-card card-only-text">
-            <label>Quantidade de Pessoas</label>
+        <div class="col card text-card-2 card-only-text border-transp">
             <label type="number" name="qtdPessoa" id="qtdPessoa">${param.qtdPessoa}</label>
-
         </div>
     </div>
-
-    <div class="row align-items-start guia-information">
-        <div class="col card text-card-2 card-only-text">
-            <div class="col">
-                <label>Guia Responsável</label>
-                <label type="text" name="guiaResponsavel" id="guiaResponsavel">${param.guiaResponsavel}</label>
+    <div class="row align-items-start valor-reserva">
+        <div class="col card text-card-2 card-only-text border-transp bg-primary-color-dv secondary-color-dv valor-viagem">
+                <label type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario"> R$ ${param.valorUnitario} </label>
         </div>
-        </div>
-        <div class="col card text-card-2 card-only-text">
-            <div class="col bg-primary-color-div secondary-color-dv price-guia">
-                <label>Valor Unitário</label>
-                <label type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario"> ${param.valorUnitario} </label>
-            </div>
-        </div>
-        <div class="col card text-card-2 card-only-text">
+        <div class="col card text-card-2 card-only-text border-transp">
                 <button href="#" class="nav-link bg-third-color-dv secondary-color-dv">Reservar</button>
             </div>
         </div>
@@ -141,35 +124,25 @@
 
 <!-- Footer -->
 
-<footer class="container-fluid bg-primary-color secondary-color" id="footer">
+<footer class="container-fluid bg-primary-color mt-auto" id="footer">
     <div class="container">
         <div class="row">
-            <!--Footer Top-->
             <div class="col-12" id="footer-top">
-                <div class="row">
-                    <div class="col-4" id="social-icons2">
-                        <img src="/Images/logo2.png" alt="logo2">
-                        <br>
-                        <i class="bi bi-whatsapp"></i>
-                        <h5>(11)93552-8200</h5>
+                <div class="row justify-content-between">
+                    <div class="col-4">
+                        <img src="/Images/logo.png" alt="Logo" class="logoIMG">
                     </div>
                     <div class="col-4" id="social-icons">
-                        <h5>Fique Por Dentro Dos Nossos Conteúdos</h5>
                         <i class="bi bi-facebook"></i>
                         <i class="bi bi-instagram"></i>
                         <i class="bi bi-youtube"></i>
                         <i class="bi bi-twitter"></i>
                     </div>
-                    <div class="col-4" id="img-arrow-icons">
-                        <img src="/Images/Arrow.png" alt="Arrow">
+                    <div class="col-4" id="arrow-up">
+                        <i class="bi bi-arrow-up-circle"></i>
                     </div>
                 </div>
             </div>
-
-            <!--Footer Details-->
-            <div class="col-12" id="footer-details"></div>
-            <!-- Footer Bottom-->
-            <div class="col-12" id="footer-bottom"></div>
         </div>
     </div>
 </footer>

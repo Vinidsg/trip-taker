@@ -31,7 +31,7 @@
 }
 
 /*NAVBAR */
-
+/*
 #navbar {
     padding: 0px 0px;
 }
@@ -84,35 +84,52 @@
     align-items: center;
     background-color: #0D1E30;
     color: #fff;
-}
+}*/
 
 /*Fotos*/
 
-.imageBanner-dv {
-    border-color: #D53620;
-    background-color: #D53620;
-    margin-top: 600px;
-    display: flex;
-    justify-content: center;
-    width: 50%;
+.img-describe {
+    margin-top: 120px;
+    margin-bottom: 40px;
 }
+
+.img-describe img {
+    margin-bottom: 40px;
+}
+
+/*.img-describe p {
+    width: 70%;
+    margin-left: 200px;
+}*/
 
 /*Descrição da viagem*/
-.describe-text {
-    margin-top: 50px;
-    display: inline-block;
-    justify-content: center;
-    background-color: #D53620;
-    width: 80%;
-    margin-left: 8%;
-}
 
 /*Tabela de preços*/
+
+.border-transp {
+    border-color: transparent;
+}
+
+#table-price {
+    margin-bottom: 20px;
+}
+
 #table-price button{
     border-radius: 300px;
     width: 200px;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 150px;
+}
+
+.valor-viagem {
+    margin-top: 18px !important;
+    margin-left: 20px;
+    margin-right: 500px;
+}
+
+.valor-reserva {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .text-card {
@@ -144,17 +161,9 @@
     width: 300px;
 }
 
-.price-guia {
-    margin-top: 50px;
-    font-weight: 500;
-    font-size: 1.2em;
-    text-align: center;
-    padding: 10px;
-}
-
 /* Footer top */
 
-#footer {
+/*#footer {
     padding: 1em 3em;
 }
 
@@ -189,3 +198,4 @@
     width: 100px;
     margin-left: 200px;
 }
+*/
