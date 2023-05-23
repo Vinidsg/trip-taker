@@ -51,13 +51,10 @@
                 </li>
                 <li class="nav-item">
                     <a href="/find-all-trips" class="nav-link primary-color">Rotas</a>
-                </li>
-                <li class="nav-item">
-                    <a href="/find-all-trips" class="nav-link primary-color">Rotas</a>
 
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link primary-color">Sobre</a>
+                    <a href="/Sobre.jsp" class="nav-link primary-color">Sobre</a>
                 </li>
             </ul>
             <div>
@@ -71,11 +68,12 @@
 
 <div class="container text-center img-describe">
     <div class="row">
+        <div>
+            <h2 type="text" name="local" id="local" class="mt-3">${param.local}<h2/>
+        </div>
         <div class="col">
             <img src="${pageContext.request.contextPath} ${param.image}" class="mx-auto d-block" alt="Imagem">
-            <p class="mt-3">A Praia do Gunga está localizada a 20 milhas ao sul de Maceió, Alagoas.
-                É considerada uma das praias mais bonitas do Brasil. A praia é cercada por coqueiros e fica bem entre o Oceano Atlântico e a Lagoa do Roteiro.
-                Esta posição garante uma cor única do oceano ao redor da praia.</p>
+            <p class="mt-3" name="descricao" id="descricao">  ${param.descricao} </p>
         </div>
     </div>
 </div>
@@ -83,30 +81,30 @@
 <!--Tabela de preços -->
 <div class="container" id="table-price">
     <div class="row align-items-start">
-        <div class="col card text-card-2 card-only-text border-transp">
+        <div class="col card text-card-2 card-only-text bg-secondary-color">
             Guia responsável
         </div>
-        <div class="col card text-card-2 card-only-text border-transp">
+        <div class="col card text-card-2 card-only-text bg-secondary-color">
             Data Início
         </div>
-        <div class="col card text-card-2 card-only-text border-transp">
+        <div class="col card text-card-2 card-only-text bg-secondary-color">
             Data Final
         </div>
-        <div class="col card text-card-2 card-only-text border-transp">
+        <div class="col card text-card-2 card-only-text bg-secondary-color">
             Quantidade de pesssoas
         </div>
     </div>
     <div class="row align-items-start">
-        <div class="col card text-card-2 card-only-text border-transp">
+        <div class="col card text-card-2 card-only-text ">
             <label type="text" name="guiaResponsavel">${param.guiaResponsavel}</label>
         </div>
-        <div class="col card text-card-2 card-only-text border-transp">
+        <div class="col card text-card-2 card-only-text ">
             <label type="date" name="dtInicio" id="dtInicio" required placeholder="DD/MM/AAAA"  mask="99/99/9999">${param.dataInicio}</label>
         </div>
-        <div class="col card text-card-2 card-only-text border-transp">
+        <div class="col card text-card-2 card-only-text ">
             <label type="date" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999">${param.dataFinal}</label>
         </div>
-        <div class="col card text-card-2 card-only-text border-transp">
+        <div class="col card text-card-2 card-only-text ">
             <label type="number" name="qtdPessoa" id="qtdPessoa">${param.qtdPessoa}</label>
         </div>
     </div>
@@ -115,11 +113,31 @@
                 <label type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario"> R$ ${param.valorUnitario} </label>
         </div>
         <div class="col card text-card-2 card-only-text border-transp">
-                <button href="#" class="nav-link bg-third-color-dv secondary-color-dv">Reservar</button>
+            <button id="reservarBtn" href="#" class="nav-link bg-third-color-dv secondary-color-dv">Reservar</button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="reservarModal" tabindex="-1" role="dialog" aria-labelledby="reservarModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary-color">
+                        <div href="#" class="navbar-brand primary-color">
+                            <img src="/Images/logo.png" alt=""/>
+                        </div>
+                        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button> -->
+                    </div>
+                    <div class="modal-body">
+                        <p>Entre em contato através do número (11)5555-6666</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary bg-third-color-dv secondary-color-dv" id="fecharBtn">Fechar</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
+    </div>
 </div>
 
 <!-- Footer -->
@@ -152,6 +170,17 @@
       document.getElementById('arrow-up').addEventListener('click', function() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
       });
+    </script>
+    <!-- Pop up Script -->
+    <script>
+        $(document).ready(function() {
+            $('#reservarBtn').click(function() {
+                $('#reservarModal').modal('show');
+            });
+            $('#fecharBtn').click(function() {
+                $('#reservarModal').modal('hide');
+            });
+        });
     </script>
 </body>
 </html>

@@ -31,76 +31,22 @@
 }
 
 /*NAVBAR */
-/*
-#navbar {
-    padding: 0px 0px;
-}
-
-#navbar a:hover {
-    color: #E6E6E6;
-}
-
-#navbar a.active {
-    border-bottom: 1px solid #fff;
-}
-
-.navbar-brand {
-    display: flex;
-}
-
-.navbar-brand img {
-    width: 300px;
-}
-
-#navbar-items button {
-    border-radius: 300px;
-    width: 100px;
-    font-weight: 500;
-    font-size: 1.2em;
-    justify-content: center;
-    display: flex;
-}
-
-#navbar-items .navbar-nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    font-weight: 500;
-    font-size: 1.2em;
-}
-
-#navbar-items .nav-item {
-    margin: 0 5em;
-}
-
-.navbar-test {
-    display: inline-block;
-    text-align: center;
-}
-
-.navbar-text-title h2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #0D1E30;
-    color: #fff;
-}*/
 
 /*Fotos*/
 
 .img-describe {
-    margin-top: 120px;
+    margin-top: 100px;
     margin-bottom: 40px;
 }
 
 .img-describe img {
     margin-bottom: 40px;
+    width: 1000px;
 }
 
-/*.img-describe p {
-    width: 70%;
-    margin-left: 200px;
-}*/
+.img-describe h2 {
+    margin-bottom: 40px;
+}
 
 /*Descrição da viagem*/
 
@@ -161,41 +107,92 @@
     width: 300px;
 }
 
-/* Footer top */
 
-/*#footer {
-    padding: 1em 3em;
+/* Estilos específicos para cada tela */
+
+/* Desktop */
+@media (min-width: 992px) {
 }
 
-#footer-top {
-    margin-bottom: 2em;
+/* Tablet */
+    @media (min-width: 768px) and (max-width: 991px) {
+        /*NAVBAR*/
+        /*#navbar a:hover {*/
+        /*    color: #D53620;*/
+        /*}*/
+
+        /*.buttonLogin {*/
+        /*    background-color: #FFF;*/
+        /*    border: 0;*/
+        /*    color: #0D1E30;*/
+        /*    border-radius: 20px;*/
+        /*    font-size: 1em;*/
+        /*    margin-top: 5px;*/
+        /*    margin-left: 0px;*/
+        /*    width: 80px;*/
+        /*    height: 35px;*/
+        /*}*/
+
+        /*.buttonLogin:hover {*/
+        /*    background-color: #D53620;*/
+        /*    transition: 0.5s;*/
+        /*}*/
+
+        /*#navbar a.active {*/
+        /*    border-bottom: 1px solid #E8E7E4;*/
+        /*    color: #FFF;*/
+        /*}*/
+
+        /*#navbar a.active:hover {*/
+        /*    color: #D53620;*/
+        /*}*/
+
+        /*.navbar-brand {*/
+        /*    display: flex;*/
+        /*    align-items: center; !* Alinhar verticalmente o conteúdo da .navbar-brand *!*/
+        /*}*/
+
+        /*.navbar-brand img {*/
+        /*    width: 80px;*/
+        /*    margin: -20px;*/
+        /*}*/
+
+        /*#navbar-items .navbar-nav {*/
+        /*    flex-direction: column; !* Alterar para layout de coluna *!*/
+        /*    align-items: center; !* Alinhar verticalmente os itens *!*/
+        /*    width: 100%;*/
+        /*}*/
+
+        /*#navbar-items .nav-item {*/
+        /*    margin: 0.5em 0; !* Adicionar um espaço entre os itens *!*/
+        /*    font-size: 1em;*/
+        /*}*/
+
+        .img-describe img {
+            width: 500px;
+            margin-right: 110px !important;
+        }
+
+        #table-price button{
+            border-radius: 300px;
+            width: 200px;
+            justify-content: center;
+            margin-left: -119px;
+
+        }
+
+        .hamburguer {
+            margin-right: 200px;
+            overflow: hidden;
+        }
+    }
+
+/* Smartphone */
+@media (max-width: 767px) {
+
 }
 
-#footer-top img {
-    width: 300px;
-}
 
-#social-icons {
-    text-align: center;
-}
 
-#social-icons i{
-    margin-right: 1em;
-    font-size: 1.5em;
-    cursor: pointer;
-}
 
-#social-icons i:hover {
-    color: #7a7a7a;
-}
 
-#social-icons2 i{
-    margin-right: 1em;
-    font-size: 1.5em;
-}
-
-#img-arrow-icons img{
-    width: 100px;
-    margin-left: 200px;
-}
-*/
