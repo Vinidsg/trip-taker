@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9e1c08c5-afe3-4916-9a78-1ab9bb722a2e" name="Changes" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684369626354-ANostalgicwallpaperfromAkiraAnime1988[1920x1080].png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684369727965-ANostalgicwallpaperfromAkiraAnime1988[1920x1080].png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684370040790-jpeg" afterDir="false" />
@@ -24,10 +25,23 @@
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-16" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-16" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684457086722-Capturadetelade2023-05-1815-00-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684457245082-Capturadetelade2023-05-1815-00-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684458536468-undraw_wine_tasting_re_4jjf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1684779464269-" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/RotasViagensDatas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/RotasViagensDatas.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Style/descricaoViagem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Style/descricaoViagem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/descricaoViagem.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/descricaoViagem.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-15" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-15" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/SESSIONS.ser" beforeDir="false" />
+>>>>>>> descricaoviagem
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/RotasViagensDatas_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/createEditTrip_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/createEditTrip_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/createEditTrip_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/createEditTrip_jsp.java" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/gerenciar_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/gerenciar_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/gerenciar_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/gerenciar_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" afterDir="false" />
@@ -38,6 +52,10 @@
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Style/RotasViagensDatas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Style/RotasViagensDatas.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-16" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2023-05-16" afterDir="false" />
 >>>>>>> main
+=======
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/descricaoViagem_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/descricaoViagem_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/descricaoViagem_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/descricaoViagem_jsp.java" afterDir="false" />
+>>>>>>> descricaoviagem
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +73,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="967a164c-31d3-4988-8ab3-f0e1e8ba0215" />
+        <option name="url" value="https://github.com/Vinidsg/trip-taker.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,10 +107,14 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
 <<<<<<< HEAD
+<<<<<<< HEAD
     &quot;last_opened_file_path&quot;: &quot;/home/vinicius/Documentos/Estudos/faculdade/PI/teste/trip-taker/trip-taker&quot;,
 =======
     &quot;last_opened_file_path&quot;: &quot;C:/Users/vinic/OneDrive/Documents/GitHub/trip-taker/trip-taker/src/main/webapp/Style&quot;,
 >>>>>>> main
+=======
+    &quot;last_opened_file_path&quot;: &quot;/home/william/Documentos/Projetos/github/trip-taker/trip-taker&quot;,
+>>>>>>> descricaoviagem
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -112,10 +147,20 @@
       <option name="presentableId" value="Default" />
       <updated>1680562365910</updated>
       <workItem from="1684190813777" duration="14000" />
+<<<<<<< HEAD
       <workItem from="1684191357226" duration="1980000" />
       <workItem from="1684261436115" duration="681000" />
       <workItem from="1684275329225" duration="72000" />
       <workItem from="1684368949188" duration="2008000" />
+=======
+      <workItem from="1684191357226" duration="2594000" />
+      <workItem from="1684197563750" duration="1112000" />
+      <workItem from="1684365382789" duration="840000" />
+      <workItem from="1684432262619" duration="4312000" />
+      <workItem from="1684451497911" duration="5443000" />
+      <workItem from="1684778304603" duration="8888000" />
+      <workItem from="1684793797992" duration="4337000" />
+>>>>>>> descricaoviagem
     </task>
     <servers />
   </component>
