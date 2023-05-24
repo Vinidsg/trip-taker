@@ -71,8 +71,8 @@
         <div>
             <h2 type="text" name="local" id="local" class="mt-3">${param.local}<h2/>
         </div>
-        <div class="col">
-            <img src="${pageContext.request.contextPath} ${param.image}" class="mx-auto d-block" alt="Imagem">
+        <div class="col-lg-12 ">
+            <img src="${pageContext.request.contextPath} ${param.image}" class="mx-auto d-block img-fluid" alt="Imagem">
             <p class="mt-3" name="descricao" id="descricao">  ${param.descricao} </p>
         </div>
     </div>
@@ -81,38 +81,43 @@
 <!--Tabela de preços -->
 <div class="container" id="table-price">
     <div class="row align-items-start">
-        <div class="col card text-card-2 card-only-text bg-secondary-color">
+        <div class="col-md-3 col-sm-6 card text-card-2 card-only-text bg-secondary-color">
             Guia responsável
         </div>
-        <div class="col card text-card-2 card-only-text bg-secondary-color">
-            Data Início
-        </div>
-        <div class="col card text-card-2 card-only-text bg-secondary-color">
-            Data Final
-        </div>
-        <div class="col card text-card-2 card-only-text bg-secondary-color">
-            Quantidade de pesssoas
-        </div>
-    </div>
-    <div class="row align-items-start">
-        <div class="col card text-card-2 card-only-text ">
+        <div class="col-md-3 col-sm-6 card text-card-2 card-only-text ">
             <label type="text" name="guiaResponsavel">${param.guiaResponsavel}</label>
         </div>
-        <div class="col card text-card-2 card-only-text ">
+        <div class="col-md-3 col-sm-6 card text-card-2 card-only-text bg-secondary-color">
+            Quantidade de pesssoas
+        </div>
+        <div class="col-md-3 col-sm-6 card text-card-2 card-only-text ">
+            <label type="number" name="qtdPessoa" id="qtdPessoa">${param.qtdPessoa}</label>
+        </div>
+        <div class="col-md-3 col-sm-6 card text-card-2 card-only-text bg-secondary-color">
+            Data Início
+        </div>
+        <div class="col-md-3 col-sm-6 card text-card-2 card-only-text ">
             <label type="date" name="dtInicio" id="dtInicio" required placeholder="DD/MM/AAAA"  mask="99/99/9999">${param.dataInicio}</label>
         </div>
-        <div class="col card text-card-2 card-only-text ">
-            <label type="date" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999">${param.dataFinal}</label>
+        <div class="col-md-3 col-sm-6 card text-card-2 card-only-text bg-secondary-color">
+            Data Final
         </div>
-        <div class="col card text-card-2 card-only-text ">
-            <label type="number" name="qtdPessoa" id="qtdPessoa">${param.qtdPessoa}</label>
+        <div class="col-md-3 col-sm-6 card text-card-2 card-only-text ">
+            <label type="date" name="dtFinal" id="dtFinal" required placeholder="DD/MM/AAAA"  mask="99/99/9999">${param.dataFinal}</label>
         </div>
     </div>
     <div class="row align-items-start valor-reserva">
-        <div class="col card text-card-2 card-only-text border-transp bg-primary-color-dv secondary-color-dv valor-viagem">
+
+        <div class="col-md-2 col-sm-2 col-0 card text-card-2 card-only-text border-transp">
+
+        </div>
+        <div class="col-md-2 col-sm-2 col-10 card text-card-2 card-only-text border-transp bg-primary-color-dv secondary-color-dv valor-viagem">
                 <label type="number" inputmode="numeric" name="vlrUnitario" id="vlrUnitario"> R$ ${param.valorUnitario} </label>
         </div>
-        <div class="col card text-card-2 card-only-text border-transp">
+        <div class="col-md-2 col-sm-2 col-0 card text-card-2 card-only-text border-transp">
+
+        </div>
+        <div class="col-md-4 col-sm-2 col-0 card text-card-2 card-only-text border-transp">
             <button id="reservarBtn" href="#" class="nav-link bg-third-color-dv secondary-color-dv">Reservar</button>
         </div>
         <!-- Modal -->
@@ -140,6 +145,7 @@
     </div>
 </div>
 
+
 <!-- Footer -->
 
 <footer class="container-fluid bg-primary-color mt-auto" id="footer">
@@ -147,16 +153,16 @@
         <div class="row">
             <div class="col-12" id="footer-top">
                 <div class="row justify-content-between">
-                    <div class="col-4">
+                    <div class="col-md-4 col-sm-6">
                         <img src="/Images/logo.png" alt="Logo" class="logoIMG">
                     </div>
-                    <div class="col-4" id="social-icons">
+                    <div class="col-md-4 col-sm-6" id="social-icons">
                         <i class="bi bi-facebook"></i>
                         <i class="bi bi-instagram"></i>
                         <i class="bi bi-youtube"></i>
                         <i class="bi bi-twitter"></i>
                     </div>
-                    <div class="col-4" id="arrow-up">
+                    <div class="col-md-4 col-sm-12 col-12" id="arrow-up">
                         <i class="bi bi-arrow-up-circle"></i>
                     </div>
                 </div>
