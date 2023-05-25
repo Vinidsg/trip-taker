@@ -7,7 +7,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trip Taker - Início</title>
-    <link rel="shortcut icon" href="/Images/LogoTripTaker.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/LogoTripTaker.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/Style/index.css">
+    <link rel="stylesheet" href="Style/index.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
         <div class="container py-3">
             <a href="#" class="navbar-brand primary-color">
-                <img src="/Images/logo.png" alt=""/>
+                <img src="Images/logo.png" alt=""/>
             </a>
             <button
                     class="navbar-toggler hamburguer"
@@ -38,13 +38,13 @@
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="/index.jsp" class="nav-link active primary-color" aria-current="page"> Início </a>
+                        <a href="index.jsp" class="nav-link active primary-color" aria-current="page"> Início </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/find-all-trips" class="nav-link primary-color">Rotas</a>
+                        <a href="find-all-trips" class="nav-link primary-color">Rotas</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/Sobre.jsp" class="nav-link primary-color">Sobre</a>
+                        <a href="Sobre.jsp" class="nav-link primary-color">Sobre</a>
                     </li>
                 </ul>
                 <div>
@@ -85,28 +85,28 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/Images/praia.png" alt="Praia" class="d-block w-100">
+                    <img src="Images/praia.png" alt="Praia" class="d-block w-100">
                     <div class="carousel-caption">
                         <h5>Rotas Disponíveis - Praias</h5>
                         <a href="#" class="btn btn-dark">Ver Rotas</a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="/Images/trilha.png" alt="Praia" class="d-block w-100">
+                    <img src="Images/trilha.png" alt="Praia" class="d-block w-100">
                     <div class="carousel-caption">
                         <h5>Rotas Disponíveis - Trilhas</h5>
                         <a href="#" class="btn btn-dark">Ver Rotas</a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="/Images/cachoeira.png" alt="Praia" class="d-block w-100">
+                    <img src="Images/cachoeira.png" alt="Praia" class="d-block w-100">
                     <div class="carousel-caption">
                         <h5>Rotas Disponíveis - Cachoeiras</h5>
                         <a href="#" class="btn btn-dark">Ver Rotas</a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="/Images/hotel.png" alt="Praia" class="d-block w-100">
+                    <img src="Images/hotel.png" alt="Praia" class="d-block w-100">
                     <div class="carousel-caption">
                         <h5>Rotas Disponíveis - Hotéis Incríveis</h5>
                         <a href="#" class="btn btn-dark">Ver Rotas</a>
@@ -177,21 +177,21 @@
         <div class="col-12" id="featured-images">
             <div class="row g-4">
                 <div class="col-12 col-md-4">
-                    <img src="/Images/praiaWP.jpg" alt="Projeto Praia" class="img-fluid">
+                    <img src="Images/praiaWP.jpg" alt="Projeto Praia" class="img-fluid">
                     <div class="banner-content">
                         <p class="secondary-color">Praias</p>
                         <h3>Veja as Rotas Disponíveis</h3>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <img src="/Images/trilhaWP.png" alt="Projeto Trilha" class="img-fluid">
+                    <img src="Images/trilhaWP.png" alt="Projeto Trilha" class="img-fluid">
                     <div class="banner-content">
                         <p class="secondary-color">Trilhas</p>
                         <h3>Veja as Rotas Disponíveis</h3>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <img src="/Images/cachoeiraWP.jpg" alt="Projeto Cachoeira" class="img-fluid">
+                    <img src="Images/cachoeiraWP.jpg" alt="Projeto Cachoeira" class="img-fluid">
                     <div class="banner-content">
                         <p class="secondary-color">Cachoeiras</p>
                         <h3>Veja as Rotas Disponíveis</h3>
@@ -209,7 +209,7 @@
     <div class="col-12 container">
         <div class="row">
             <div class="col-12 col-md-5" id="info-banner">
-                <img src="/Images/mapa.jpg" alt="Localização da Empresa" class="image-fluid">
+                <img src="Images/mapa.jpg" alt="Localização da Empresa" class="image-fluid">
             </div>
             <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
                 <div class="row">
@@ -246,7 +246,7 @@
                 <div class="col-12" id="footer-top">
                     <div class="row justify-content-between">
                         <div class="col-4">
-                            <img src="/Images/logo.png" alt="Logo" class="logoIMG">
+                            <img src="Images/logo.png" alt="Logo" class="logoIMG">
                         </div>
                         <div class="col-4" id="social-icons">
                             <i class="bi bi-facebook"></i>
@@ -266,7 +266,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
       document.getElementById("loginBtn").addEventListener("click", function() {
-        window.location.href = "/login";
+        window.location.href = "login";
       });
       document.getElementById('arrow-up').addEventListener('click', function() {
         window.scrollTo({ top: 0, behavior: 'smooth' });

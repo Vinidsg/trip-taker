@@ -28,7 +28,7 @@ public class LoginServlet extends HttpServlet {
 
         if (isValidUser) {
             req.getSession().setAttribute("username", username);
-            resp.sendRedirect("/getImage");
+            resp.sendRedirect("getImage");
         } else {
             req.setAttribute("errorMessage", "Usuário ou Senha inválidos!");
             req.getRequestDispatcher("login.jsp").forward(req, resp);

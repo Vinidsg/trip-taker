@@ -25,9 +25,9 @@ public class CreateTripServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        String username = (String) request.getSession().getAttribute("username");
+       String username = (String) request.getSession().getAttribute("username");
         if (username == null) {
-            response.sendRedirect("/login");
+            response.sendRedirect("login");
             return;
         }
 
@@ -38,7 +38,7 @@ public class CreateTripServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = (String) request.getSession().getAttribute("username");
         if (username == null) {
-            response.sendRedirect("/login");
+            response.sendRedirect("login");
             return;
         }
 
@@ -62,7 +62,7 @@ public class CreateTripServlet extends HttpServlet {
             new TripTakerDAO().updateTrip(trip);
         }
 
-        response.sendRedirect("/getImage");
+        response.sendRedirect("getImage");
     }
 
     private Map<String, String> uploadImage(HttpServletRequest httpServletRequest) {
@@ -80,7 +80,7 @@ public class CreateTripServlet extends HttpServlet {
                 }
             } catch (Exception ex) {
 
-                requestParameters.put("image", "img/default.jpg");
+                System.out.println(ex);
             }
 
         }

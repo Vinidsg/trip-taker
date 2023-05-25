@@ -17,7 +17,7 @@ public class DeleteTripServlet extends HttpServlet {
 
         new TripTakerDAO().deleteTripById(tripId);
 
-        resp.sendRedirect("/getImage");
+        resp.sendRedirect("getImage");
 
     }
 

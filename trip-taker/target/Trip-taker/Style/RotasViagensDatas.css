@@ -1,358 +1,131 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-
-
-.btnDelete {
-    font-size: 18px;
-    font-family: 'Noto Sans', sans-serif;
-    border-radius: 70px;
-    background-color: #D53620;
-    border: 0px;
-    color: #ffffff;
-    width: 100px;
-    height: 35px;
-    margin-right: auto;
-    align-items: right;
-    margin-left: -200px;
-}
-
-.btnAndTable
+.row
 {
-    padding-left:400px;
+--bs-gutter-x: -2rem;
+
 }
 
-#footer
+.btn {
+    border-radius: 25px;
+    width:125px;
+    height:45px;
+    font-size: 1.2rem;
+
+}
+
+#info-content {
+    margin-bottom: 5em;
+    padding: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#info-numbers {
+    margin: 0.6em 0;
+}
+
+#info-banner {
+    display: flex;
+    align-items: center;
+
+}
+
+#info-numbers h2 {
+    font-size: 1.0em;
+}
+
+
+#info-numbers h4 {
+    font-size: 1.3em;
+}
+
+#info-numbers p {
+    font-size: 1.1em;
+}
+.font-descricao
 {
-    overflow-y: hidden;
+    font-size: 1em;
+}
+
+
+@media(min-width: 740px) {
+    #info-content {
+        padding: 3.5em;
+
+
+    }
 }
 
 
 
+.logoIMG {
+    width: 80px;
+}
 
 
-/*Sessão 2*/
 
-.sessao-02{
+#footer {
+    padding: 1.5em 0.5em;
+}
 
+#footer-top {
+    margin-bottom: 2em;
+}
+
+#footer-top, footer-top i {
+    color: #fff;
+}
+
+#social-icons {
+    text-align: center;
+}
+
+#social-icons i {
+    margin-left: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#social-icons i:hover {
+    color: #D53620;
+    transition: 0.3s;
+}
+
+#arrow-up {
+    text-align: left;
+}
+
+#arrow-up i {
+    cursor: pointer;
+    font-size: 3em;
+    margin-left: 380px;
+}
+
+.container-principal{
+margin-top:100px;
 
 }
 
 
 
-.sessao-02 > img
-{
-    border-color: #23272a;
-    border: 30px;
-    box-shadow: #23272a;
-    position: relative;
-    box-shadow: 0 0 20px rgba(0,0,0,0.50);
-    border-bottom: 1px solid black;
-}
+.hover-zoomin img {
 
-.titulo_foto_praia_do_gunga
-{
-    font-family:'Open Sans';
-    font-size: larger ;
-    color: #23272a;
-    margin-left: -630px;
-    margin-top: -270px;
-}
-
-
-
-
-
-
-/*Sessão 2*/
-
-.sessao-02{
-
-
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
     }
-
-
-
-    .sessao-02 > img
-    {
-        border-color: #23272a;
-        border: 30px;
-        box-shadow: #23272a;
-        position: relative;
+    .hover-zoomin:hover img {
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-
-    .titulo_foto_praia_do_gunga
-    {
-        font-family:'Open Sans';
-        font-size: larger ;
-        color: #23272a;
-        margin-left: -630px;
-        margin-top: -270px;
-    }
-
-
-
-
-
-
-
-
-    /*Sessão 2*/
-
-.sessao-02{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    padding: 110px 50px;
-    background-color: #E6E6E6;
-    width: auto;
-    }
-
-
-
-    .sessao-02 > img
-    {
-        border-color: #23272a;
-        border: 30px;
-        box-shadow: #23272a;
-        position: relative;
-    }
-
-    .titulo_foto_praia_do_gunga
-    {
-        font-family:'Open Sans';
-        font-size: larger ;
-        color: #23272a;
-        margin-left: -630px;
-        margin-top: -270px;
-    }
-
-
-
-
-    /*Sessão 3*/
-
-.sessao-03{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    padding: 110px 50px;
-    background-color: #E6E6E6;
-    width: auto;
-    margin-right: -50px;
-    margin-left: -10px;
-
-    }
-
-
-
-    .sessao-03 > img
-    {
-        border-color: #23272a;
-        border: 30px;
-        box-shadow: #23272a;
-        position: relative;
-    }
-
-    .titulo_foto_praia_do_gunga
-    {
-        font-family:'Open Sans';
-        font-size: larger ;
-        color: #23272a;
-        margin-left: -630px;
-        margin-top: -270px;
-    }
-
-
-
-
-    /*Sessão 4*/
-
-.sessao-04{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    padding: 110px 50px;
-    background-color: #E6E6E6;
-    width: auto;
-    margin-right: -50px;
-    margin-left: -10px;
-
-    }
-
-
-
-    .sessao-04 > img
-    {
-        border-color: #23272a;
-        border: 30px;
-        box-shadow: #23272a;
-        position: relative;
-    }
-
-    .titulo_foto_praia_do_gunga
-    {
-        font-family:'Open Sans';
-        font-size: larger ;
-        color: #23272a;
-        margin-left: -630px;
-        margin-top: -270px;
-    }
-
-
-
-
-
-
-
-    /*Sessão 5*/
-
-.sessao-05{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    padding: 110px 50px;
-    background-color: #E6E6E6;
-    width: auto;
-    margin-right: -50px;
-    margin-left: -10px;
-
-    }
-
-
-
-    .sessao-05 > img
-    {
-        border-color: #23272a;
-        border: 30px;
-        box-shadow: #23272a;
-        position: relative;
-    }
-
-    .titulo_foto_praia_do_gunga
-    {
-        font-family:'Open Sans';
-        font-size: larger ;
-        color: #23272a;
-        margin-left: -630px;
-        margin-top: -270px;
-    }
-
-
-
-
-
-
-
-    .tabela
-    {
-        text-align: center;
-        font: 45px;
-        font-family: 'Noto Sans', sans-serif;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        color: black;
-        overflow: hidden;
-        margin-left: auto;
-        margin-right: 100px;
-
-
-    }
-
-
-     .tabela
-        {
-            border-collapse: collapse;
-            margin: 45px 0: font-size: 0.9rem;
-            min-width: 400px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.35);
-
-        }
-
-
-     .tabela >* th
-     {
-        background-color: rgb(13, 30, 48, 1);
-        color: #ffffff;
-        text-align: center;
-     }
-
-    .tabela >th, td
-     {
-        padding: 30px 40px;
-     }
-
-     .tabela > tr.tabela-coluna-js
-     {
-        font-weight: bold;
-        color: #009879
-
-     }
-
-    .tabela > tr:nth-of-type(even)
-     {
-        border-bottom: 1px solid black;
-     }
-
-     .tabela-coluna
-     {
-        height: 50px;
-     }
-
-     .buttonLogin2 {
-         font-size: 18px;
-         font-family: 'Noto Sans', sans-serif;
-         border-radius: 70px;
-         background-color: #0D1E30;
-         border: 0px;
-         color: #ffffff;
-         width: 100px;
-         height: 35px;
-         margin-bottom: -320px;
-         margin-left: 0px;
-
-     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .container-buttons
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .container-btnDelete
-    {
-        padding-right: -50px;
-    }
-
-
-
-
 
 
 
