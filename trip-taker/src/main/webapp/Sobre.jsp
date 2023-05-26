@@ -7,7 +7,7 @@
         <meta name="viewport"
             content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Trip Taker - Início</title>
+        <title>Trip Taker - Sobre</title>
         <link rel="shortcut icon" href="/Images/LogoTripTaker.ico" type="image/x-icon">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +40,7 @@
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="/index.jsp" class="nav-link primary-color"> Inicio </a>
+                        <a href="/index.jsp" class="nav-link primary-color"> Início </a>
                     </li>
                     <li class="nav-item">
                         <a href="/find-all-trips" class="nav-link primary-color" aria-current="page">Rotas</a>
