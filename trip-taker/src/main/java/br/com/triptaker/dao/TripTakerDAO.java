@@ -98,7 +98,7 @@ public class TripTakerDAO {
     }
 
     public void deleteTripById (int id){
-        String SQL = "DELETE CRIAR_EDITAR_ROTAS WHERE ID = ?";
+        String SQL = "DELETE from CRIAR_EDITAR_ROTAS WHERE ID = ?";
 
 
         try {
