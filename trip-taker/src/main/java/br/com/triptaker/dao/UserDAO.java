@@ -10,11 +10,11 @@ import java.sql.ResultSet;
 
 public class UserDAO {
 
-    private static String driver = "com.mysql.jdbc.Driver";
-
     public boolean verifyCredentials(User user) {
 
         String SQL = "SELECT * FROM USR WHERE USERNAME = ?";
+
+        String driver = "com.mysql.jdbc.Driver";
 
         try {
 
