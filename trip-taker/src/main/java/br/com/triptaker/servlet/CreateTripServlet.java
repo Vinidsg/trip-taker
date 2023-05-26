@@ -60,11 +60,12 @@ public class CreateTripServlet extends HttpServlet {
         String descricao = parameters.get("descricao");
         String image = parameters.get("image");
 
-        Trip trip = new Trip(id, local, qtdPessoa, guiaResponsavel, vlrUnitario, dtInicio, dtFinal, descricao, image);
+        Trip trip = new Trip(local, qtdPessoa, guiaResponsavel, vlrUnitario, dtInicio, dtFinal, descricao, image);
 
         if (id.isEmpty()) {
             new TripTakerDAO().createTrip(trip);
         } else {
+            trip.setId(Integer.parseInt(id));
             new TripTakerDAO().updateTrip(trip);
         }
 
