@@ -16,9 +16,13 @@ public class TripTakerDAO {
     }
     public void createTrip(Trip Trip) {
 
+        String driver = "com.mysql.jdbc.Driver";
+
         String SQL = "INSERT INTO CRIAR_EDITAR_ROTAS  (LOCAL, QTD_PESSOA, GUIA_RESPONSAVEL, VALOR_UNITARIO, DATA_INICIO, DATA_FINAL, DESCRICAO, IMAGE) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
         try {
+
+            Class.forName(driver);
 
             Connection connection = conexao();
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
@@ -48,9 +52,11 @@ public class TripTakerDAO {
 
     public List<Trip> findAllTrips() {
         String SQL = "SELECT * FROM CRIAR_EDITAR_ROTAS";
+        String driver = "com.mysql.jdbc.Driver";
 
         try
         {
+            Class.forName(driver);
             Connection connection = conexao();
             System.out.println("Success in database connection");
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
@@ -93,8 +99,12 @@ public class TripTakerDAO {
     public void deleteTripById (String id){
         String SQL = "DELETE CRIAR_EDITAR_ROTAS WHERE ID = ?";
 
+        String driver = "com.mysql.jdbc.Driver";
+
 
         try {
+
+            Class.forName(driver);
 
             Connection connection = conexao();
 
@@ -116,7 +126,12 @@ public class TripTakerDAO {
     }
     public void updateTrip(Trip Trip) {
         String SQL = "UPDATE CRIAR_EDITAR_ROTAS SET LOCAL = ?, QTD_PESSOA = ?, GUIA_RESPONSAVEL = ?, VALOR_UNITARIO = ?, DATA_INICIO = ?, DATA_FINAL = ?, DESCRICAO = ?, IMAGE = ? WHERE ID = ?";
+
+        String driver = "com.mysql.jdbc.Driver";
+
         try {
+
+            Class.forName(driver);
 
             Connection connection = conexao();
 
