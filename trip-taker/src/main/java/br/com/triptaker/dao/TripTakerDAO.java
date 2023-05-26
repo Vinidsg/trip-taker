@@ -116,7 +116,7 @@ public class TripTakerDAO {
             connection.close();
 
         } catch (Exception e) {
-
+            System.out.println(e.getMessage());
             System.out.println("fail in database connection Delete");
 
         }
