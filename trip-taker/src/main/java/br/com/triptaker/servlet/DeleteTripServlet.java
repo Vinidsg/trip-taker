@@ -14,7 +14,7 @@ public class DeleteTripServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         req.setCharacterEncoding("UTF-8");
 
-        String tripId = req.getParameter("id");
+        int tripId = Integer.parseInt(req.getParameter("id"));
 
         new TripTakerDAO().deleteTripById(tripId);
 

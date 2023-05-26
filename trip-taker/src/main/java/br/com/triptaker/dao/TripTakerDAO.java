@@ -97,7 +97,7 @@ public class TripTakerDAO {
 
     }
 
-    public void deleteTripById (String id){
+    public void deleteTripById (int id){
         String SQL = "DELETE CRIAR_EDITAR_ROTAS WHERE ID = ?";
 
 
@@ -108,7 +108,7 @@ public class TripTakerDAO {
             System.out.println("success in database connection");
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
-            preparedStatement.setString(1, id);
+            preparedStatement.setInt(1, id);
             preparedStatement.execute();
 
             System.out.println("success on delete trip   with id: " + id);
@@ -116,7 +116,7 @@ public class TripTakerDAO {
             connection.close();
 
         } catch (Exception e) {
-
+            System.out.println(e.getMessage());
             System.out.println("fail in database connection Delete");
 
         }
