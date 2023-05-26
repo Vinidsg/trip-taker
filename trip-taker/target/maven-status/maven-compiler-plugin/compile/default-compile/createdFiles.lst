@@ -1,0 +1,11 @@
+br\com\triptaker\dao\TripTakerDAO.class
+br\com\triptaker\servlet\DataBaseServlet.class
+br\com\triptaker\servlet\LoginServlet.class
+br\com\triptaker\servlet\DeleteTripServlet.class
+br\com\triptaker\model\Trip.class
+br\com\triptaker\servlet\ListTripServlet_gerenciar.class
+br\com\triptaker\dao\UserDAO.class
+br\com\triptaker\model\User.class
+br\com\triptaker\servlet\CreateTripServlet.class
+br\com\triptaker\servlet\LogoutServlet.class
+br\com\triptaker\servlet\ListTripServlet.class
