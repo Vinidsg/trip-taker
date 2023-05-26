@@ -12,14 +12,11 @@ public class UserDAO {
 
     public boolean verifyCredentials(User user) {
 
-        String driver = "com.mysql.jdbc.Driver";
-
         String SQL = "SELECT * FROM USR WHERE USERNAME = ?";
-
 
         try {
 
-            Class.forName(driver);
+            Class.forName("com.mysql.jdbc.Driver");
 
             Connection connection = DriverManager.getConnection("jdbc:mysql://triptaker-db.cqpzu4xulkxe.us-east-1.rds.amazonaws.com/triptaker", "admin", "X8ZxQ8kV6ifUV8fqU6r%3A5K(W-O");
 
