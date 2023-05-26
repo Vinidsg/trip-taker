@@ -11,7 +11,7 @@ import java.util.List;
 public class TripTakerDAO {
 
     private Connection conexao() throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:mysql:\\triptaker-db.cqpzu4xulkxe.us-east-1.rds.amazonaws.com/triptaker", "admin", "X8ZxQ8kV6ifUV8fqU6r%3A5K(W-O");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://triptaker-db.cqpzu4xulkxe.us-east-1.rds.amazonaws.com/triptaker", "admin", "X8ZxQ8kV6ifUV8fqU6r%3A5K(W-O");
         return connection;
     }
     public void createTrip(Trip Trip) {
