@@ -15,6 +15,8 @@ import java.util.List;
 public class ListTripServlet_gerenciar extends HttpServlet {
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setCharacterEncoding("UTF-8");
+
         String username = (String) req.getSession().getAttribute("username");
         if (username == null) {
             resp.sendRedirect("/login");

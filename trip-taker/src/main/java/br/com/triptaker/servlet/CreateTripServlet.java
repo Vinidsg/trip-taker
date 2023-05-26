@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -25,6 +26,8 @@ public class CreateTripServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+        request.setCharacterEncoding("UTF-8");
+
         String username = (String) request.getSession().getAttribute("username");
         if (username == null) {
             response.sendRedirect("/login");
@@ -36,6 +39,9 @@ public class CreateTripServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        request.setCharacterEncoding("UTF-8");
+
         String username = (String) request.getSession().getAttribute("username");
         if (username == null) {
             response.sendRedirect("/login");
@@ -65,7 +71,8 @@ public class CreateTripServlet extends HttpServlet {
         response.sendRedirect("/getImage");
     }
 
-    private Map<String, String> uploadImage(HttpServletRequest httpServletRequest) {
+    private Map<String, String> uploadImage(HttpServletRequest httpServletRequest) throws UnsupportedEncodingException {
+
         Map<String, String> requestParameters = new HashMap<>();
 
         if (isMultipartContent(httpServletRequest)) {

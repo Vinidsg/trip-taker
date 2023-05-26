@@ -111,9 +111,8 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="#" class="btn btn-dark"><b>Detalhes</b></a>
                             <a href="/descricaoViagem.jsp?id=${trip.id}&local=${trip.local}&guiaResponsavel=${trip.guiaResponsavel}&qtdPessoa=${trip.qtdPessoas}&valorUnitario=${trip.valorUnitario}&dataInicio=${trip.dataInicio}&dataFinal=${trip.dataFinal}&descricao=${trip.descricao}&image=${trip.image}">
-                                <span class="btn btn-dark">Agendar</span>
+                                <span class="btn btn-dark"><b>Agendar</b></span>
                             </a>
                         </div>
                     </div>
