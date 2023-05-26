@@ -14,6 +14,7 @@ public class TripTakerDAO {
         Connection connection = DriverManager.getConnection("jdbc:mysql://triptaker-db.cqpzu4xulkxe.us-east-1.rds.amazonaws.com/triptaker", "admin", "X8ZxQ8kV6ifUV8fqU6r%3A5K(W-O");
         return connection;
     }
+
     public void createTrip(Trip Trip) {
 
         String driver = "com.mysql.jdbc.Driver";
@@ -97,24 +98,20 @@ public class TripTakerDAO {
     }
 
     public void deleteTripById (String id){
-        String SQL = "DELETE CRIAR_EDITAR_ROTAS WHERE ID = ?";
-
         String driver = "com.mysql.jdbc.Driver";
 
+        String SQL = "DELETE CRIAR_EDITAR_ROTAS WHERE ID = ?";
 
         try {
 
             Class.forName(driver);
-
             Connection connection = conexao();
-
             System.out.println("success in database connection");
-
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
             preparedStatement.setString(1, id);
             preparedStatement.execute();
 
-            System.out.println("success on delete trip   with id: " + id);
+            System.out.println("success on delete trip with id: " + id);
 
             connection.close();
 

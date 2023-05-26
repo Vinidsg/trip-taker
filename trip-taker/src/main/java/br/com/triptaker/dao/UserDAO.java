@@ -37,9 +37,7 @@ public class UserDAO {
                 if (password.equals(user.getPassword())) {
 
                     return true;
-
                 }
-
             }
 
             connection.close();
