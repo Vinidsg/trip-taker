@@ -5,6 +5,7 @@ import br.com.triptaker.model.Trip;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import org.apache.commons.fileupload.util.Streams;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -96,7 +97,9 @@ public class CreateTripServlet extends HttpServlet {
 
     private void checkFieldType(FileItem item, Map requestParameters) throws Exception {
         if (item.isFormField()) {
-            requestParameters.put(item.getFieldName(), item.getString());
+            String xxx = Streams.asString(item.getInputStream(), "UTF-8");
+            System.out.println(xxx);
+            requestParameters.put(item.getFieldName(), xxx);
         } else {
             String fileName = processUploadFile(item);
             requestParameters.put("image", "img/".concat(fileName));
