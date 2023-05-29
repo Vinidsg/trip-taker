@@ -58,7 +58,7 @@
                 </li>
             </ul>
             <div>
-                <button class="buttonLogin  btn-primary" id="loginBtn">Login</button>
+                <button href="#" class="buttonLogin  btn-primary" id="loginBtn">Login</button>
             </div>
         </div>
     </div>
