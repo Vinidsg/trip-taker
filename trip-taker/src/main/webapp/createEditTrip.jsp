@@ -96,7 +96,7 @@
             </div>
 
               <div class="image">
-                  <img class="img-fluid" src="${param.image}" alt="Imagem">
+                  <img class="img-fluid" src="${pageContext.request.contextPath} ${param.image}" alt="Imagem">
               </div>
 
             <div class="mb-3 upload-image">

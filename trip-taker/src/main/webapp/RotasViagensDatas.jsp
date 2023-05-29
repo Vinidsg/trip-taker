@@ -72,7 +72,7 @@
             <div class="row">
 
                             <div class="col-12 col-md-5 hover-zoomin" id="info-banner">
-                                   <img class=" img-thumbnail" width="500" height="450" src="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}" alt="...">
+                                   <img class=" img-thumbnail" width="500" height="450" src="${trip.image}" alt="...">
                                 </a>
                             </div>
 

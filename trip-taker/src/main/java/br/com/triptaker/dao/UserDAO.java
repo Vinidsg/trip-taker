@@ -10,13 +10,18 @@ import java.sql.ResultSet;
 
 public class UserDAO {
 
+    private static String driver = "com.mysql.jdbc.Driver";
+
     public boolean verifyCredentials(User user) {
 
         String SQL = "SELECT * FROM USR WHERE USERNAME = ?";
 
         try {
+            Class.forName(driver);
 
-            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
+            //Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://triptaker-db.cqpzu4xulkxe.us-east-1.rds.amazonaws.com/triptaker", "admin", "X8ZxQ8kV6ifUV8fqU6r%3A5K(W-O");
+
 
             System.out.println("success in database connection");
 

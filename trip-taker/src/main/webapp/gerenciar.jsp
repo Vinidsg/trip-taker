@@ -73,7 +73,7 @@
                 <div class="col-md-4">
                     <div class="card mb-3">
                         <a href="/createEditTrip.jsp?id=${trip.id}&local=${trip.local}&guiaResponsavel=${trip.guiaResponsavel}&qtdPessoa=${trip.qtdPessoas}&valorUnitario=${trip.valorUnitario}&dataInicio=${trip.dataInicio}&dataFinal=${trip.dataFinal}&descricao=${trip.descricao}&image=${trip.image}">
-                            <img class="card-img-top" src="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}" alt="Imagem da Viagem">
+                            <img class="card-img-top" src="${trip.image}" alt="Imagem da Viagem">
                         </a>
                         <div class="card-body">
                             <form action="/delete-trip" method="post">
