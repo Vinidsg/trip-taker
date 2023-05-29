@@ -20,8 +20,7 @@ public class UserDAO {
             Class.forName(driver);
 
             //Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
-            Connection connection = DriverManager.getConnection("jdbc:mysql://triptaker-db.cqpzu4xulkxe.us-east-1.rds.amazonaws.com/triptaker", "admin", "X8ZxQ8kV6ifUV8fqU6r%3A5K(W-O");
-
+            Connection connection = DriverManager.getConnection("jdbc:mysql://triptaker-db.cqpzu4xulkxe.us-east-1.rds.amazonaws.com/triptaker", "admin", "_h(ag|!fix08LBhxXXS9N}[72wp3");
 
             System.out.println("success in database connection");
 
