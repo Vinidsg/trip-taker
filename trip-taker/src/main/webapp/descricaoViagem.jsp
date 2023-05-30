@@ -189,5 +189,14 @@
             });
         });
     </script>
+
+    <script>
+        document.getElementById("loginBtn").addEventListener("click", function() {
+            window.location.href = "/login";
+        });
+        document.getElementById('arrow-up').addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
 </body>
 </html>
