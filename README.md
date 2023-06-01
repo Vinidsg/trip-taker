@@ -67,7 +67,11 @@ Na mesma tela de Rotas mencinado no campo acima (Verificando as rotas cadastrada
 ![DeleteRotasViagem](/docs/DeleteRotasViagem.png)
 
 
+## Arquitetura AWS
 
+Foi desenvolvida uma arquitetura em três camadas, composta por duas sub-redes privadas que abrigam os servidores de aplicação e banco de dados, juntamente com uma sub-rede pública que contém um balanceador de carga para distribuir o tráfego entre as instâncias de aplicação. Além disso, implementamos um escalonamento automático que ajusta o número de máquinas com base na verificação de integridade do balanceador de carga. Utilizamos o serviço S3 para armazenar as imagens, garantindo que todas as instâncias tenham acesso às mesmas imagens enviadas pelo usuário.
+
+![DiagramaAWS](/docs/trip-taker.png)
 
 
 
