@@ -28,3 +28,5 @@
 127.0.0.1 - - [30/May/2023:00:20:19 -0300] "GET /RotasViagensDatas.css HTTP/1.1" 404 993 http-bio-8080-exec-5 2
 127.0.0.1 - - [30/May/2023:00:20:21 -0300] "GET /descricaoViagem.jsp?id=46&local=qwe&guiaResponsavel=qwe&qtdPessoa=12&valorUnitario=13.0&dataInicio=2023-05-30&dataFinal=2023-05-31&descricao=dfdsf%C3%A7l%C3%A7l&image=https://trip-taker.s3.amazonaws.com/1685371187761-jpeg HTTP/1.1" 200 8605 http-bio-8080-exec-5 2
 127.0.0.1 - - [30/May/2023:00:22:03 -0300] "GET /login HTTP/1.1" 200 5086 http-bio-8080-exec-4 3
+127.0.0.1 - - [30/May/2023:01:06:17 -0300] "GET / HTTP/1.1" 200 13380 http-bio-8080-exec-9 3
+127.0.0.1 - - [30/May/2023:01:06:17 -0300] "GET /Images/mapa.jpg HTTP/1.1" 200 16384 http-bio-8080-exec-9 1
