@@ -1,10 +1,12 @@
 package br.com.triptaker.servlet;
 
 import br.com.triptaker.dao.TripTakerDAO;
+import br.com.triptaker.infra.AmazonS3Uploader;
 import br.com.triptaker.model.Trip;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import org.apache.commons.fileupload.util.Streams;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -71,7 +73,7 @@ public class CreateTripServlet extends HttpServlet {
         response.sendRedirect("/getImage");
     }
 
-    private Map<String, String> uploadImage(HttpServletRequest httpServletRequest) throws UnsupportedEncodingException {
+    private Map<String, String> uploadImage(HttpServletRequest httpServletRequest) {
 
         Map<String, String> requestParameters = new HashMap<>();
 
@@ -87,7 +89,8 @@ public class CreateTripServlet extends HttpServlet {
                 }
             } catch (Exception ex) {
 
-                requestParameters.put("image", "img/default.jpg");
+                System.out.println(ex.getMessage());
+
             }
 
         }
@@ -95,19 +98,24 @@ public class CreateTripServlet extends HttpServlet {
     }
 
     private void checkFieldType(FileItem item, Map requestParameters) throws Exception {
+        AmazonS3Uploader s3 = new AmazonS3Uploader();
         if (item.isFormField()) {
-            requestParameters.put(item.getFieldName(), item.getString());
+            String xxx = Streams.asString(item.getInputStream(), "UTF-8");
+            System.out.println(xxx);
+            requestParameters.put(item.getFieldName(), xxx);
         } else {
             String fileName = processUploadFile(item);
-            requestParameters.put("image", "img/".concat(fileName));
+            requestParameters.put("image", s3.getURL(fileName));
         }
     }
 
     private String processUploadFile(FileItem fileItem) throws Exception {
+        AmazonS3Uploader s3 = new AmazonS3Uploader();
         Long currentTime = new Date().getTime();
         String fileName = currentTime.toString().concat("-").concat(fileItem.getName().replace(" ", ""));
         String filePath = this.getServletContext().getRealPath("img").concat(File.separator).concat(fileName);
         fileItem.write(new File(filePath));
+        s3.uploadImageToS3(filePath, fileName);
         return fileName;
     }
 }

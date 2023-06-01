@@ -72,7 +72,7 @@
             <div class="row">
 
                             <div class="col-12 col-md-5 hover-zoomin" id="info-banner">
-                                   <img class=" img-thumbnail" width="500" height="450" src="${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.serverPort}/${trip.image}" alt="...">
+                                   <img class=" img-thumbnail" width="500" height="450" src="${trip.image}" alt="...">
                                 </a>
                             </div>
 
@@ -146,7 +146,8 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="Script/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <script>
           document.getElementById("loginBtn").addEventListener("click", function() {

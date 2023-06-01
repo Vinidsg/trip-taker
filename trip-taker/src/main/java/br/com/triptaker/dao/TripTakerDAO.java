@@ -2,23 +2,29 @@ package br.com.triptaker.dao;
 
 import br.com.triptaker.model.Trip;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
 public class TripTakerDAO {
+    private static String driver = "com.mysql.jdbc.Driver";
+
+    private Connection conexao() throws SQLException {
+        Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
+
+        return connection;
+    }
     public void createTrip(Trip Trip) {
 
         String SQL = "INSERT INTO CRIAR_EDITAR_ROTAS  (LOCAL, QTD_PESSOA, GUIA_RESPONSAVEL, VALOR_UNITARIO, DATA_INICIO, DATA_FINAL, DESCRICAO, IMAGE) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
         try {
 
-            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
+            Class.forName(driver);
+
+            Connection connection = conexao();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
@@ -50,7 +56,9 @@ public class TripTakerDAO {
 
         try
         {
-            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
+            Class.forName(driver);
+
+            Connection connection = conexao();
             System.out.println("Success in database connection");
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
             ResultSet resultSet = preparedStatement.executeQuery();
@@ -90,12 +98,14 @@ public class TripTakerDAO {
     }
 
     public void deleteTripById (String id){
-        String SQL = "DELETE CRIAR_EDITAR_ROTAS WHERE ID = ?";
+        String SQL = "DELETE FROM CRIAR_EDITAR_ROTAS WHERE ID = ?";
 
 
         try {
 
-            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
+            Class.forName(driver);
+
+            Connection connection = conexao();
 
             System.out.println("success in database connection");
 
@@ -117,8 +127,9 @@ public class TripTakerDAO {
         String SQL = "UPDATE CRIAR_EDITAR_ROTAS SET LOCAL = ?, QTD_PESSOA = ?, GUIA_RESPONSAVEL = ?, VALOR_UNITARIO = ?, DATA_INICIO = ?, DATA_FINAL = ?, DESCRICAO = ?, IMAGE = ? WHERE ID = ?";
         try {
 
-            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
+            Class.forName(driver);
 
+            Connection connection = conexao();
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
             preparedStatement.setString(1, Trip.getLocal());

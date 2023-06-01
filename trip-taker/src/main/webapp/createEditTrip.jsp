@@ -96,7 +96,7 @@
             </div>
 
               <div class="image">
-                  <img class="img-fluid" src="${param.image}" alt="Imagem">
+                  <img class="img-fluid" src="${pageContext.request.contextPath} ${param.image}" alt="Imagem">
               </div>
 
             <div class="mb-3 upload-image">
@@ -137,6 +137,7 @@
             </div>
         </div>
     </footer>
+    <script src="Script/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>

@@ -58,7 +58,7 @@
                 </li>
             </ul>
             <div>
-                <button class="buttonLogin  btn-primary" id="loginBtn">Login</button>
+                <button href="#" class="buttonLogin  btn-primary" id="loginBtn">Login</button>
             </div>
         </div>
     </div>
@@ -69,11 +69,11 @@
 <div class="container text-center img-describe">
     <div class="row">
         <div>
-            <h2 type="text" name="local" id="local" class="mt-3">${param.local}<h2/>
+            <h2 type="text" name="local" id="local" class="mt-3"><h2/>
         </div>
         <div class="col-lg-12 ">
             <img src="${pageContext.request.contextPath} ${param.image}" class="mx-auto d-block img-fluid" alt="Imagem">
-            <p class="mt-3" name="descricao" id="descricao">  ${param.descricao} </p>
+            <p class="mt-3" name="descricao" id="descricao"> </p>
         </div>
     </div>
 </div>
@@ -85,7 +85,7 @@
             Guia responsável
         </div>
         <div class="col-md-3 col-sm-6 card text-card-2 card-only-text ">
-            <label type="text" name="guiaResponsavel">${param.guiaResponsavel}</label>
+            <label type="text" name="guiaResponsavel" id="guiaResponsavel"></label>
         </div>
         <div class="col-md-3 col-sm-6 card text-card-2 card-only-text bg-secondary-color">
             Quantidade de pesssoas
@@ -170,6 +170,7 @@
         </div>
     </div>
 </footer>
+    <script src="Script/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
@@ -186,6 +187,15 @@
             $('#fecharBtn').click(function() {
                 $('#reservarModal').modal('hide');
             });
+        });
+    </script>
+    <!-- Script do login -->
+    <script>
+        document.getElementById("loginBtn").addEventListener("click", function() {
+            window.location.href = "/login";
+        });
+        document.getElementById('arrow-up').addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     </script>
 </body>
