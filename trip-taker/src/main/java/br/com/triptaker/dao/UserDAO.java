@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 
 public class UserDAO {
 
-    private static String driver = "com.mysql.jdbc.Driver";
+    private static String driver = "com.mysql.cj.jdbc.Driver";
 
     public boolean verifyCredentials(User user) {
 
@@ -19,7 +19,7 @@ public class UserDAO {
         try {
             Class.forName(driver);
 
-            Connection connection = DriverManager.getConnection("jdbc:mysql:trip-taker.cqpzu4xulkxe.us-east-1.rds.amazonaws.com/triptaker", "admin", "js0Y%<]bbFC1fmnO5ML(oNG>J9D9");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://trip-taker.cqpzu4xulkxe.us-east-1.rds.amazonaws.com:3306/triptaker", "admin", "js0Y%<]bbFC1fmnO5ML(oNG>J9D9");
 
             System.out.println("success in database connection");
 
