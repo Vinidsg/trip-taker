@@ -12,7 +12,7 @@ public class TripTakerDAO {
     private static String driver = "com.mysql.jdbc.Driver";
 
     private Connection conexao() throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
+        Connection connection = DriverManager.getConnection("jdbc:mysql:trip-taker.cqpzu4xulkxe.us-east-1.rds.amazonaws.com/triptaker", "admin", "js0Y%<]bbFC1fmnO5ML(oNG>J9D9");
 
         return connection;
     }
