@@ -76,7 +76,7 @@ Após clicar no campo indicado, o usuário será redirecionado para a reserva de
 
 Página responsável por contar um pouco da história da companhia, objetivos e metas. 
 
-![Ex_Tela_Sobre](/docs/Tela_Sobre.PNG)
+![Ex_Tela_Sobre](/docs/Tela_Sobre.png)
 
 
 ## Arquitetura AWS
