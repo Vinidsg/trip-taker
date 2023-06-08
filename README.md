@@ -69,8 +69,6 @@ Após clicar no campo indicado, o usuário será redirecionado para a reserva de
 
 ![Ex_Tela_Reserva_Rota](/docs/Reservar_Rota.png)
 
-![Ex_Botao_Reservar](/docs/Botao_Reservar.png)
-
 
 ## Sobre
 
