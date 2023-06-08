@@ -36,35 +36,47 @@ https://www.figma.com/proto/nCeRxZy5cMWnc1175pPA8C/Trip-Taker?node-id=1-149&scal
 ![triptaker-figma](/docs/triptaker-figma.png)
 
 
-## Criando novas rotas
+## Login
 
-Após efetuar o login na tela principal, o administrador será direcionado para a página Criar/Editar Rotas, permitindo que ele possa inserir e editar as rotas.
+Etapa responsável por validar o login e senha do administrador. Esta tela autentica o login e a senha inseridos pelo usuário, dando-lhes acesso à tela de gerenciamento de rotas.
 
- ![ExTelaCriarEditarRotas](/docs/ExTelaCriarEditarRotas.png)
+ ![Ex_Tela_Logn](/docs/Tela_Login.png)
 
-Após preencher todos os campos conforme a imagem acima, o administrador deve clicar em Salvar para a rota ser cadastrada.
 
- ![SalvarTelaCriarRotas](/docs/SalvarTelaCriarRotas.png)
+## Gerenciar rotas
 
-Caso ele clique em Cancelar, os campos preenchidos serão apagados.
+Após efetuar o login, o administrador será redirecionado para a página de Gerenciar rotas. **Esta página permite que o administrador crie, delete e altere qualquer rota cadastrada no banco de dados.**   
 
-![CancelarTelaCriarRotas](/docs/CancelarTelaCriarRotas.png)
+ ![Ex_Tela_Gerenciar_Rotas](/docs/Tela_Gerenciar_Rotas.png)
 
-## Verificando as rotas cadastradas
 
-Após efetuar o login na tela principal, o usuário poderá verificar as rotas cadastradas através do campo Rotas na barra de navegação.
+## Criar rotas
 
-![RotastelaCriarRotas](/docs/RotastelaCriarRotas.png)
+Ao clicar no ícone de **"+"**, assim como é mostrado no exemplo anterior, o site irá direcionar o administrador para a página de criar nova rota. Nesta página será possível cadastrar uma nova viagem, sendo obrigatório o preenchimento de todos os campos.  
 
-Em seguida, ele conseguirá verificar todas as rotas cadastradas.
+ ![Ex_Tela_Criar_Rotas](/docs/Tela_Criar_Rotas.png)
 
-![TelaRotasViagens](/docs/TelaRotasViagens.PNG)
+Além disso, se o administrador clicar em uma das viagens na página de **Gerenciar rotas**, ele será redirecionado para a página de **Criar rotas**, no qual conterá todos os parâmetros inseridos anteriormente, no momento de cadastro.  
 
-## Deletando as rotas cadastradas
 
-Na mesma tela de Rotas mencinado no campo acima (Verificando as rotas cadastradas), o administrador poderá excluir as rotas clicando na opção Delete ao lado das rotas cadastradas que ele deseja excluir.
+## Rotas
 
-![DeleteRotasViagem](/docs/DeleteRotasViagem.png)
+A página de Rotas é responsável por listar todas as viagens cadastradas no banco de dados. Além disso, está página é responsável por redirecionar o usuário para a página de reserva de viagens, ao clicar em **Agendar**
+
+![Ex_Tela_Rotas](/docs/Tela_Rotas.png)
+
+Após clicar no campo indicado, o usuário será redirecionado para a reserva de viagem.
+
+![ExTelaReservaViagens](/docs/Reserva_Rota.PNG)
+
+![ExBotaoTelaReservaViagens](/docs/Botao_Reservar.PNG)
+
+
+## Sobre
+
+Página responsável por contar um pouco da história da companhia, objetivos e metas. 
+
+![ExTelaSobre](/docs/Tela_Sobre.PNG)
 
 
 ## Arquitetura AWS
