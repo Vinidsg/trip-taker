@@ -67,7 +67,7 @@ A página de Rotas é responsável por listar todas as viagens cadastradas no ba
 
 Após clicar no campo indicado, o usuário será redirecionado para a reserva de viagem.
 
-![Ex_Tela_Reserva_Rota](/docs/Reserva_Rota.png)
+![Ex_Tela_Reserva_Rota](/docs/Reservar_Rota.png)
 
 ![Ex_Botao_Reservar](/docs/Botao_Reservar.png)
 
