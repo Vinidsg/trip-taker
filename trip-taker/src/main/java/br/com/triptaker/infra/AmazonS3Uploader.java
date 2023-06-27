@@ -15,8 +15,8 @@ import static software.amazon.awssdk.services.s3.model.GetObjectRequest.*;
 
 public class AmazonS3Uploader {
     private static final String BUCKET_NAME = "trip-taker";
-    private static final String ACCESS_KEY = "AKIATMENAUSY2KNHHWSZ";
-    private static final String SECRET_KEY = "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";
+    private static final String ACCESS_KEY = "AKIATMENAUSYUUT6ZCMF";
+    private static final String SECRET_KEY = "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";
     private static final Region REGION = Region.US_EAST_1;
 
     public void uploadImageToS3(String imagePath, String fileName){

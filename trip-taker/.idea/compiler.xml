@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="createEditTrip-taker" />
         <module name="Trip-taker" />
-        <module name="trip-taker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

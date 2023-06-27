@@ -19,7 +19,7 @@ public class UserDAO {
         try {
             Class.forName(driver);
 
-            Connection connection = DriverManager.getConnection("jdbc:mysql://trip-taker.cqpzu4xulkxe.us-east-1.rds.amazonaws.com/triptaker", "admin", "js0Y%<]bbFC1fmnO5ML(oNG>J9D9");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://triptaker.cqpzu4xulkxe.us-east-1.rds.amazonaws.com/triptaker", "admin", "b7b.(l[<edA>{<q|kXSD+NsTJZ7j");
 
             System.out.println("success in database connection");
 
